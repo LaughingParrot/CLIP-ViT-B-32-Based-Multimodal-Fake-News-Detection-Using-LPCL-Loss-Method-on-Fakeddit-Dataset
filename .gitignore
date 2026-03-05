@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Build files
+dist/
+build/
+
+#dataset
+Fakeddit/
+
+# trained models
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Logs
+*.log
