@@ -1,501 +1,501 @@
 count	id	domain	title	predicted	confidence	true_label	note
-1/500	cozywbv	nan	stargazer	Real	0.97	Real	(O) True_negative
-2/500	ctk61yw	nan	yeah	Real	0.999	Real	(O) True_negative
-3/500	c0gl7r	abc15.com	pd phoenix car thief gets instructions from youtube video	Fake	0.998	Fake	(O) True_positive
-4/500	c0xdqy	nytimes.com	as trump accuses iran he has one problem his own credibility	Fake	0.993	Fake	(O) True_positive
-5/500	7o9rmx	i.imgur.com	believers hezbollah	Real	0.998	Real	(O) True_negative
-6/500	bdfxf1	i.redd.it	the rise of italian fascism circa	Real	0.999	Real	(O) True_negative
-7/500	8g3xtm	washingtonpost.com	trumps pick to lead ice who touted surge in immigration arrests steps down	Fake	0.998	Fake	(O) True_positive
-8/500	26kwdf	i.imgur.com	my friend midflip	Fake	0.994	Fake	(O) True_positive
-9/500	2s0xuj	i.imgur.com	look at this cool iphone case i got the other day	Fake	0.631	Real	(E) Directed_to_expert
-10/500	cbyjnry	nan	my rope flying off a friend swing	Fake	0.992	Real	(X) False_positive
-11/500	bopb6s	i.imgur.com	this smiling dog	Fake	0.996	Fake	(O) True_positive
-12/500	64b266	rt.com	shadow brokers hackers release nsa hacking tools to punish trump for abandoning his base	Fake	0.997	Fake	(O) True_positive
-13/500	7iqceh	i.redd.it	come on	Real	0.998	Real	(O) True_negative
-14/500	5rhizs	i.redd.it	really excited drummer	Fake	0.986	Fake	(O) True_positive
-15/500	3gzxbc	straitstimes.com	hsa warns against orange juice brand found to contain banned erectile dysfunction drug	Fake	0.999	Fake	(O) True_positive
-16/500	c82k3s	imgur.com	bird poop that looked like a bird	Real	0.975	Fake	(X) False_negative
-17/500	1epbxk	businessinsider.co	aw is paying to put mini ads in mens beards	Real	0.565	Fake	(E) Directed_to_expert
-18/500	b36dy1	i.redd.it	ukrainian potato chips	Fake	0.852	Fake	(O) True_positive
-19/500	53b5b5	mail.com	manhattan explosion leaves hurt nd device probed	Fake	0.928	Fake	(O) True_positive
-20/500	541v7x	bbc.co.uk	ig nobel win for alpine goat man	Fake	0.999	Fake	(O) True_positive
-21/500	biiv7g	i.redd.it	surprisedjpeg	Real	0.999	Real	(O) True_negative
-22/500	dk45b0p	nan	the carbonite freezing process is a horrific experience	Real	0.999	Real	(O) True_negative
-23/500	cyetc3	i.redd.it	early space invaders concept art	Real	0.994	Real	(O) True_negative
-24/500	cgxdf6v	nan	relax babe youre too tense	Real	0.999	Real	(O) True_negative
-25/500	dbmlrp	i.redd.it	this pumpkin that looks like a watermelon and shaped like an apple	Fake	0.999	Fake	(O) True_positive
-26/500	1q3qqr	4.bp.blogspot.com	a tank rolls through the mist	Real	0.86	Real	(O) True_negative
-27/500	crvek0	i.redd.it	the sun hitting my orange soda just right	Fake	0.996	Fake	(O) True_positive
-28/500	1cogkd	motherjones.com	while west texas burned its famous czech bakery kept the kolaches coming	Fake	0.998	Fake	(O) True_positive
-29/500	3pgxkc	i.imgur.com	creepy deer	Real	0.986	Real	(O) True_negative
-30/500	1z31iu	blogs.windsorstar.	im not a man windsor woman tries to tell ohip	Fake	0.999	Fake	(O) True_positive
-31/500	c993w8d	nan	grumpy nate robinson	Fake	0.827	Real	(X) False_positive
-32/500	981fm7	i.imgur.com	which way is up	Real	0.999	Real	(O) True_negative
-33/500	cjruk1	i.redd.it	this unexpectedly long table soccer	Fake	0.994	Fake	(O) True_positive
-34/500	2mqnax	i.imgur.com	well hello there happy little feller	Real	0.999	Real	(O) True_negative
-35/500	c6plihp	nan	this	Real	0.995	Real	(O) True_negative
-36/500	cj2ttry	nan	when youre sad enough you can sit anywhere	Real	0.743	Real	(O) True_negative
-37/500	1sxz9w	christianpost.com	former gay activist marries woman addresses critics who condemn his new heterosexual lifes	Fake	0.999	Fake	(O) True_positive
-38/500	2lzdnk	upi.com	romanian town weathering ladybug invasion	Fake	0.998	Fake	(O) True_positive
-39/500	77i4aq	i.redd.it	misery last dance	Real	0.999	Real	(O) True_negative
-40/500	8rz0xv	i.redd.it	dynasty anywhere but here	Real	0.999	Real	(O) True_negative
-41/500	awy85j	i.redd.it	ice wall irish vale cape breton	Real	0.549	Fake	(E) Directed_to_expert
-42/500	5czcd8	media3.giphy.com	mfw thinking about applying to grad school is than i did all by myself	Real	0.962	Real	(O) True_negative
-43/500	ct77orl	nan	ftfy	Real	0.999	Real	(O) True_negative
-44/500	5wsvai	theonion.com	trump outlines bold vision for nations next mass protests	Real	0.662	Real	(O) True_negative
-45/500	816h68	clickhole.com	life feminism ftw scholastic is releasing an empowering book series about historical princ	Fake	0.791	Real	(X) False_positive
-46/500	2j99y7	foxnews.com	cdc lays out new plan to counter ebola exposure in us	Fake	0.999	Fake	(O) True_positive
-47/500	609pxh	i.imgur.com	oh heeeey	Real	1.0	Real	(O) True_negative
-48/500	21wrzf	imgur.com	heritage vietnam era us navy recruitment poster x	Real	0.997	Real	(O) True_negative
-49/500	8uik9f	money.cnn.com	texas steel pipe manufacturer becomes casualty of trumps trade war	Fake	0.998	Fake	(O) True_positive
-50/500	1pquwf	i.imgur.com	my dash is a hoot	Real	0.996	Real	(O) True_negative
-51/500	6tp3a0	bbc.co.uk	girl killed as car rams pizzeria in village near paris report	Fake	0.999	Fake	(O) True_positive
-52/500	d6xep00	nan	youre home now	Real	1.0	Real	(O) True_negative
-53/500	c8cuosg	nan	bass face	Real	0.753	Real	(O) True_negative
-54/500	cb3up59	nan	other discussions	Real	1.0	Real	(O) True_negative
-55/500	co2iaii	nan	brainnnnnzzzz	Real	0.985	Real	(O) True_negative
-56/500	6tdym4	i.redd.it	tony stark suits up for the first time	Real	0.997	Real	(O) True_negative
-57/500	dklxkb	i.redd.it	you guys probably wont believe me but i got two fruit by the footsfeet in one wrapper	Fake	0.999	Fake	(O) True_positive
-58/500	8vjf6c	theglobeandmail.co	banff ditches bigbang canada day fireworks to protect wildlife	Fake	0.999	Fake	(O) True_positive
-59/500	ce2d4rk	nan	harden was super effective	Real	0.997	Real	(O) True_negative
-60/500	c4smzld	nan	wimbledont	Real	0.999	Real	(O) True_negative
-61/500	c640a27	nan	made sense to me at the time	Real	0.968	Real	(O) True_negative
-62/500	2up9d1	time.com	luckiest cub scout troop ever accidentally hikes to nude beach	Fake	0.996	Fake	(O) True_positive
-63/500	bn449s	i.redd.it	look at what i found in washington dc	Real	0.952	Fake	(X) False_negative
-64/500	32dpe0	i.imgur.com	i love grilled chicken	Real	0.968	Real	(O) True_negative
-65/500	ccmdw5t	nan	photo	Fake	0.501	Real	(E) Directed_to_expert
-66/500	baw08h	waterfordwhispersn	wiggas granted minority status in america	Fake	0.53	Real	(E) Directed_to_expert
-67/500	diflxr	i.redd.it	this guy commutes a laptop holder that hangs off the back of a train seat on njtransit did	Fake	0.684	Fake	(O) True_positive
-68/500	2gwfrm	theguardian.com	grindr accurately predicting scottish referendum results since	Fake	0.524	Fake	(E) Directed_to_expert
-69/500	7sfgsh	clickhole.com	they said what find out what bob dylan clint eastwood peter jackson and more have to say	Real	0.959	Real	(O) True_negative
-70/500	6pnxeu	i.redd.it	getting in the shower when suddenly nsfw	Real	0.976	Real	(O) True_negative
-71/500	3oj6q5	theatlantic.com	jeb bush campaign offers cute mason jars	Fake	0.817	Fake	(O) True_positive
-72/500	c3j6fr	i.redd.it	the ten commandments on how to treat a prostitute when in amsterdam	Real	0.926	Fake	(X) False_negative
-73/500	comv5l9	nan	obama really is a lizard person	Real	0.963	Real	(O) True_negative
-74/500	cih2ql0	nan	cutouts	Real	0.999	Real	(O) True_negative
-75/500	2j9ks6	bbc.com	thailand to invite tourists to experience martial law	Fake	0.998	Fake	(O) True_positive
-76/500	dt4sgkb	nan	i dont know really	Real	0.998	Real	(O) True_negative
-77/500	dj1agv	i.redd.it	the cat on the box is the yang to her ying	Real	0.965	Fake	(X) False_negative
-78/500	dlqx8j	i.redd.it	saw a fellow riding a unicycle when i was walking home from work	Fake	0.565	Fake	(E) Directed_to_expert
-79/500	c14nsp	i.redd.it	the last cockpit image gathered from american airlines flight	Real	0.735	Real	(O) True_negative
-80/500	c3yb4m9	nan	i added one thing hope you dont mind	Real	0.99	Real	(O) True_negative
-81/500	8xmsnm	i.redd.it	i know you have more money from fafsa	Real	0.919	Real	(O) True_negative
-82/500	czc2ut	imgur.com	the house used in the film hellraiser was on fire today	Real	0.996	Fake	(X) False_negative
-83/500	6zgaac	thecut.com	reporter rescues two dolphins while covering hurricane irma	Fake	0.999	Fake	(O) True_positive
-84/500	2i59um	i.imgur.com	naked girl with a green screen nsfw	Fake	0.967	Fake	(O) True_positive
-85/500	6ww1fz	i.redd.it	frogs fcking	Real	0.939	Real	(O) True_negative
-86/500	2zkblp	newsweek.com	serbians told dont throw grenades in the trash	Fake	0.977	Fake	(O) True_positive
-87/500	2ppnc9	imgur.com	watching my friend drink from inside the shot glass	Fake	0.977	Real	(X) False_positive
-88/500	1qo82b	gma.yahoo.com	facebook leads adopted indiana woman to biological family in hours	Fake	0.999	Fake	(O) True_positive
-89/500	bzs8df	i.redd.it	an entire potato slice in my bag of potato chips	Fake	0.998	Fake	(O) True_positive
-90/500	cwx4lqg	nan	broadway brodown	Real	0.997	Real	(O) True_negative
-91/500	2srw5t	i.imgur.com	ballerina	Real	0.962	Real	(O) True_negative
-92/500	5aaegh	snarkmarket.com	adolf hitler appears on the stage of the famous cathedral of light during the nuremberg ra	Real	1.0	Real	(O) True_negative
-93/500	7robea	i.imgur.com	lunaticosiris false	Real	1.0	Real	(O) True_negative
-94/500	chdmd4t	nan	new from fisher price	Real	0.997	Real	(O) True_negative
-95/500	b3wkju	i.redd.it	the amount of lost id cards and credit cards after st patricks day at the bar i work at	Fake	0.996	Fake	(O) True_positive
-96/500	cqp1dz	i.redd.it	my destroyed leather couch after my cat got on it	Fake	0.979	Real	(X) False_positive
-97/500	c4xp0k7	nan	mothafuckin space	Real	0.998	Real	(O) True_negative
-98/500	1mbdac	nypost.com	dj class for babies in brooklyn	Fake	0.946	Fake	(O) True_positive
-99/500	covimo4	nan	breakfast with john t	Real	0.993	Real	(O) True_negative
-100/500	d7fz410	nan	bullseye	Real	0.997	Real	(O) True_negative
-101/500	di39upw	nan	ready for the bossfight	Real	0.995	Real	(O) True_negative
-102/500	bosgpo	i.redd.it	anyone else see the owl in my friends bathroom	Fake	0.77	Real	(X) False_positive
-103/500	b3axr6	i.redd.it	shadow of the stairs stopping the snow from melting	Fake	0.959	Fake	(O) True_positive
-104/500	c6269mr	nan	arthrodog	Real	0.987	Real	(O) True_negative
-105/500	c8ljy5o	nan	i want to be fabulous darling	Real	0.994	Real	(O) True_negative
-106/500	8latqc	i.redd.it	a tortoise yelling at another tortoise	Fake	0.924	Fake	(O) True_positive
-107/500	40grii	c1.staticflickr.co	railway tunnel norway	Fake	0.854	Fake	(O) True_positive
-108/500	e1ij6rb	nan	piece of junk start already	Real	0.987	Real	(O) True_negative
-109/500	8hyzfz	i.imgur.com	the foxgloves learning to fly	Fake	0.979	Real	(X) False_positive
-110/500	cgls65u	nan	cutouts	Real	0.999	Real	(O) True_negative
-111/500	ce2jop	i.redd.it	border collie in a towel	Real	0.631	Fake	(E) Directed_to_expert
-112/500	1nyf1b	i.imgur.com	meanwhile at the presidents cup nsfw	Real	0.998	Fake	(X) False_negative
-113/500	f03cm7a	nan	the trinity killer was here	Real	0.999	Real	(O) True_negative
-114/500	8zimge	i.redd.it	poland during the combined invasion of both german and russian forces colourized	Real	0.998	Real	(O) True_negative
-115/500	azfynh	i.imgur.com	the back of this asda receipt today was pink to raise awareness for breast cancer	Fake	0.999	Fake	(O) True_positive
-116/500	9gpxfm	i.redd.it	mina miller offers thomas edison advice on the kinetograph circa	Real	0.996	Real	(O) True_negative
-117/500	cy3muxr	nan	animee morph	Real	0.999	Real	(O) True_negative
-118/500	850l7j	miamiherald.com	bridge designer left state voice mail about cracks days before florida international unive	Fake	0.999	Fake	(O) True_positive
-119/500	4k1xl6	abcnews.go.com	tv meteorologist running on trail rescues baby screech owl	Fake	0.998	Fake	(O) True_positive
-120/500	8qrj94	i.redd.it	find the shark	Real	0.968	Real	(O) True_negative
-121/500	5ll4jw	cbc.ca	government of ontario is planning to flee to toronto after donald trump presidency could m	Fake	0.992	Real	(X) False_positive
-122/500	7lmqtv	i.redd.it	toddler visiting santa	Fake	0.992	Fake	(O) True_positive
-123/500	cs40lw	i.redd.it	the way the cars made a string out of leaves	Fake	0.997	Fake	(O) True_positive
-124/500	dmv11gk	nan	euphoric	Real	0.999	Real	(O) True_negative
-125/500	cc0uudu	nan	i do believe theres a squatch in these woods	Real	0.93	Real	(O) True_negative
-126/500	c4fhbs	i.redd.it	this cloud that looks like great britain	Fake	0.99	Fake	(O) True_positive
-127/500	dlbtzy	imgur.com	an illinois license plate from	Fake	0.999	Fake	(O) True_positive
-128/500	ciogw5	i.imgur.com	my washer and dryer ended up with the same amount of time left despite starting at differe	Fake	0.996	Fake	(O) True_positive
-129/500	9eyhxh	i.redd.it	a carving on a mass of tree roots in m shanghai oc	Fake	0.997	Fake	(O) True_positive
-130/500	d9t0j4t	nan	this far	Real	0.996	Real	(O) True_negative
-131/500	bd7e2e	i.redd.it	hankook is a tire company from south korea hankook is the anglicization of hangeug which m	Fake	0.909	Fake	(O) True_positive
-132/500	cknb0up	nan	hes got a little captain in him	Real	0.995	Real	(O) True_negative
-133/500	414yif	politico.com	obama dog pants go on two legs not four	Real	0.985	Fake	(X) False_negative
-134/500	cfcutg8	nan	kitty phone home	Real	0.999	Real	(O) True_negative
-135/500	b4ls7p	i.redd.it	sun above the tree love the streak it left	Fake	0.979	Fake	(O) True_positive
-136/500	cur52s	i.redd.it	the hat i was wearing made my shadow have a perfectly circular head	Fake	0.991	Fake	(O) True_positive
-137/500	cvpakeh	nan	httpimgurcomloooqmajpg	Real	1.0	Real	(O) True_negative
-138/500	dag73f	i.redd.it	my bell pepper had a tiny bell pepper inside it	Fake	0.999	Fake	(O) True_positive
-139/500	cazalq1	nan	other discussions	Real	1.0	Real	(O) True_negative
-140/500	7h8rtl	theguardian.com	children suffering from anxiety and depression will be offered counselling at school under	Fake	0.996	Fake	(O) True_positive
-141/500	czun4ey	nan	hows this	Real	0.999	Real	(O) True_negative
-142/500	ce0t29l	nan	fancy a snack	Real	0.999	Real	(O) True_negative
-143/500	cyfti8	i.redd.it	this walle made from bike chains bought on venice beach	Fake	0.997	Fake	(O) True_positive
-144/500	d6yxb3	i.redd.it	giants destroying holland	Real	0.995	Real	(O) True_negative
-145/500	ci48g4l	nan	cutouts	Real	0.999	Real	(O) True_negative
-146/500	4rjje9	theguardian.com	movie plot have inspired mi sources iraqi weapons claim	Fake	0.993	Fake	(O) True_positive
-147/500	cghakx0	nan	httpiimgurcomzyqojpg	Real	1.0	Real	(O) True_negative
-148/500	7u9mzf	i.redd.it	this cancer survivor	Fake	0.999	Fake	(O) True_positive
-149/500	d2pg6gy	nan	dont	Real	0.999	Real	(O) True_negative
-150/500	8ruphg	i.redd.it	this is unsettling	Real	0.997	Real	(O) True_negative
-151/500	48c0k6	fox4kc.com	woman with cats claims shes not a crazy cat lady	Fake	0.995	Fake	(O) True_positive
-152/500	cfu83eq	nan	not photogenic but hes winning the race	Real	0.999	Real	(O) True_negative
-153/500	cfhwpox	nan	other discussions	Real	1.0	Real	(O) True_negative
-154/500	7wonbz	v.redd.it	finnish snipers shoot russian soldiers at the same moment	Real	0.863	Real	(O) True_negative
-155/500	7gi1c3	i.redd.it	urinal soap person seems high	Fake	0.791	Real	(X) False_positive
-156/500	c5i7uml	nan	i tried my best	Real	0.994	Real	(O) True_negative
-157/500	3fm70v	cleveland.com	akron police check on unsupervised toddler eating charcoal find meth lab	Fake	0.999	Fake	(O) True_positive
-158/500	criji4	i.redd.it	whats in a name sonic youth	Real	0.999	Real	(O) True_negative
-159/500	b1d1hj	i.redd.it	north korean air force bombing seoul during the korean war	Real	0.997	Real	(O) True_negative
-160/500	8akm5j	i.redd.it	almost has a ninja turtle vibe	Real	0.936	Real	(O) True_negative
-161/500	3076d5	imgur.com	shocked that they were priced so low	Real	0.915	Real	(O) True_negative
-162/500	5aqtok	i.imgur.com	the stresses of science	Real	0.853	Real	(O) True_negative
-163/500	9eg765	i.imgur.com	this ship turning hard	Real	0.648	Fake	(E) Directed_to_expert
-164/500	17f6my	imgur.com	my first attempt at for an upcoming location based gaming seminar	Real	0.967	Real	(O) True_negative
-165/500	cdwxvhz	nan	so majestic	Real	0.996	Real	(O) True_negative
-166/500	axrt6n	i.redd.it	aerial view from denver international airport	Fake	0.959	Fake	(O) True_positive
-167/500	cb59e5i	nan	starcraft wings of liberty	Real	0.966	Real	(O) True_negative
-168/500	c69tki	imgur.com	dutch construction workers find unexploded british phosphor bomb college evacuated	Fake	0.999	Fake	(O) True_positive
-169/500	c805p7i	nan	you forgot something	Real	0.997	Real	(O) True_negative
-170/500	8903rv	i.redd.it	germany and the allied nations after signing the treaty of versailles th	Real	0.999	Real	(O) True_negative
-171/500	c5ij6c	i.redd.it	i cant unsee the creepy face	Real	0.995	Real	(O) True_negative
-172/500	c0d6sw	i.redd.it	reddit is founded circa	Real	0.943	Real	(O) True_negative
-173/500	92bwto	web.archive.org	princess dianas final words revealed by firefighter who was at scene of her death	Real	0.983	Real	(O) True_negative
-174/500	57rhj6	imgur.com	evil monkey orchids	Real	0.998	Real	(O) True_negative
-175/500	axli48	i.redd.it	this cars tire adverts colors have completely faded	Fake	0.999	Fake	(O) True_positive
-176/500	d665vax	nan	be good little americans	Real	0.999	Real	(O) True_negative
-177/500	38zki8	i.imgur.com	rd cosplay	Real	0.988	Real	(O) True_negative
-178/500	cl6mm7	i.redd.it	this tennis player	Fake	0.986	Fake	(O) True_positive
-179/500	3o3rlo	statesman.com	watch out for aggressive meat salesman police tell dripping springs	Fake	0.996	Fake	(O) True_positive
-180/500	3qrxhf	i.imgur.com	this miserable cat in a costume	Fake	0.993	Fake	(O) True_positive
-181/500	cmyvqbb	nan	strutting eagle gonna strut	Real	0.987	Real	(O) True_negative
-182/500	cccj7s	i.redd.it	this pup in a parcel	Fake	0.854	Fake	(O) True_positive
-183/500	bg38c7	i.redd.it	the clouds blocked the empire state building from view outside my window so that it looked	Fake	0.996	Fake	(O) True_positive
-184/500	1gbyzn	imgur.com	my stapler is about to cry he just gets his head punched all day l	Real	0.998	Real	(O) True_negative
-185/500	clzu3f2	nan	jaaarrhrhrhrh	Real	0.999	Real	(O) True_negative
-186/500	66z38j	i.redd.it	theres a little old lady enjoying the daily read on top of my succulent plant	Fake	0.886	Real	(X) False_positive
-187/500	1k1lty	washingtonexaminer	rand paul open to beerdelivering drones	Fake	0.996	Fake	(O) True_positive
-188/500	dcw47z	i.redd.it	how i learned to draw animals drawing their anatomy	Fake	0.71	Fake	(O) True_positive
-189/500	3bpw2q	i.imgur.com	dog having a cold swim	Fake	0.995	Fake	(O) True_positive
-190/500	15fdeg	imgur.com	a worried gift bag	Real	0.994	Real	(O) True_negative
-191/500	6f1e8y	imgur.com	the hand that will rule the world one big union international workers of the world america	Real	0.983	Real	(O) True_negative
-192/500	cbsm2t1	nan	i should enjoy the golden years	Real	0.998	Real	(O) True_negative
-193/500	4vziqy	gfycat.com	keep this on the inside of the washington cd primary	Real	0.997	Real	(O) True_negative
-194/500	bt40ol	i.redd.it	i like to mooooove it	Real	0.999	Fake	(X) False_negative
-195/500	cp3wgf2	nan	interview	Real	0.883	Real	(O) True_negative
-196/500	dly2bto	nan	are you feeling it now	Real	0.999	Real	(O) True_negative
-197/500	axnaer	waterfordwhispersn	new drink driving lanes proposed in ireland	Fake	0.999	Real	(X) False_positive
-198/500	d8felx1	nan	this	Real	0.995	Real	(O) True_negative
-199/500	crk4jip	nan	help	Real	0.999	Real	(O) True_negative
-200/500	1hp4vo	miami.cbslocal.com	jackmeoff mudd arrested in broward county	Fake	0.942	Fake	(O) True_positive
-201/500	d9erpc	i.redd.it	moscow ussr date unknown	Real	0.999	Real	(O) True_negative
-202/500	5fztz3	usatoday.com	thousands raised for michaels manager subjected to customers tirade in chicago	Fake	0.852	Fake	(O) True_positive
-203/500	b3lhgg	i.redd.it	my package came with a card telling me who packed it	Fake	0.999	Fake	(O) True_positive
-204/500	c8sux8i	nan	you hear that godzilla	Real	0.997	Real	(O) True_negative
-205/500	cfszioa	nan	hhhhhhhhh	Real	0.999	Real	(O) True_negative
-206/500	951wxi	washingtonpost.com	the spot where emmett tills body was found is marked by this sign people keep shooting it 	Fake	0.998	Fake	(O) True_positive
-207/500	w5fvo	imgur.com	so my new buddy arrived today smiling already	Real	0.995	Real	(O) True_negative
-208/500	4bjlkh	i.imgur.com	meerkats under a heating lamp	Fake	0.54	Fake	(E) Directed_to_expert
-209/500	cqmwyxz	nan	this is sparta	Real	0.999	Real	(O) True_negative
-210/500	ceo4dsd	nan	its my ball	Real	0.999	Real	(O) True_negative
-211/500	co9mlgt	nan	getting some fresh ink	Real	0.947	Real	(O) True_negative
-212/500	1i6s60	i.imgur.com	ill see your john travolta having fun at the beach and raise you benedict cumberbatch havi	Real	0.998	Fake	(X) False_negative
-213/500	7f7uh9	bbc.com	woman bares alopecia condition which causes hair loss in engagement photos	Fake	0.999	Fake	(O) True_positive
-214/500	cizi4q	i.redd.it	this unopened can of east cider that came in a variety pack	Fake	0.999	Fake	(O) True_positive
-215/500	64qd2o	i.imgur.com	panama city panama cityscape at night	Fake	0.959	Fake	(O) True_positive
-216/500	cjl7kic	nan	he can show up anywhere anytime	Real	0.996	Real	(O) True_negative
-217/500	3aweoy	upload.wikimedia.o	political illustration of napoleon meeting satan and death russian circa	Real	0.999	Real	(O) True_negative
-218/500	d3pm4pr	nan	bieber bottle	Real	0.974	Real	(O) True_negative
-219/500	2pcg7d	i.imgur.com	this horribly taxidermied dik dik i think or maybe mouse deer	Fake	0.967	Fake	(O) True_positive
-220/500	byv3of	economist.com	google rewards reputable reporting not leftwing politics our statistical study revealed no	Real	0.821	Fake	(X) False_negative
-221/500	125k7s	imgur.com	from smile to smile a photo story of a babys survival	Fake	0.995	Fake	(O) True_positive
-222/500	clkp52l	nan	his wife always told him that eating that many pancakes was going to kill him he had no id	Real	0.989	Real	(O) True_negative
-223/500	cjxf9ol	nan	why its the colonel himself	Real	0.999	Real	(O) True_negative
-224/500	9k0h0t	i.redd.it	my grandmas fairly wellorganized refrigerator	Fake	0.985	Fake	(O) True_positive
-225/500	1tmtce	i.imgur.com	ill never let go	Real	0.999	Real	(O) True_negative
-226/500	c6se22	i.redd.it	parking space at amusement park has divots from cars constantly being parked on them	Fake	0.988	Fake	(O) True_positive
-227/500	5s92ru	abcnews.go.com	teachers inspirational note to students goes viral remember to aim far	Fake	0.999	Fake	(O) True_positive
-228/500	837tqi	i.redd.it	this lizard and his sweet ride	Fake	0.934	Fake	(O) True_positive
-229/500	47xzdt	i.imgur.com	this close up of a yellow moth	Fake	0.972	Fake	(O) True_positive
-230/500	1tqine	daily-chronicle.co	ill man helps homeless one sock at a time	Fake	0.997	Fake	(O) True_positive
-231/500	d2s66e	i.redd.it	the name of this cable adapter used at my work vga cable to a classroom projector	Fake	0.994	Fake	(O) True_positive
-232/500	d8naawt	nan	national geographic	Real	0.963	Real	(O) True_negative
-233/500	8bgwwy	i.redd.it	an owl walking	Fake	0.957	Fake	(O) True_positive
-234/500	bxy5gk	i.redd.it	my socks clearly tell you which foot they should go on	Fake	0.978	Fake	(O) True_positive
-235/500	bdlxla	i.redd.it	this zoomed in photo of my bearded dragon looks like it could be an oil canvas painting	Fake	0.726	Fake	(O) True_positive
-236/500	6gib83	i.imgur.com	my ice cream seemed pretty happy i was going to eat it	Real	0.994	Real	(O) True_negative
-237/500	d684hzv	nan	adam	Real	0.97	Real	(O) True_negative
-238/500	6d7po2	wpxi.com	thousands of dollars raised for heroic homeless men rushed to aid children during manchest	Fake	0.999	Fake	(O) True_positive
-239/500	8opu4e	hawaiinewsnow.com	gov david ige signed three bills monday in an effort to reduce carbon emissions one of whi	Fake	0.999	Fake	(O) True_positive
-240/500	cik53f	i.redd.it	replica of naval cannon handmade of brass and wood as gift for my father	Fake	0.98	Fake	(O) True_positive
-241/500	5oo2g6	i.redd.it	good bye dad us	Real	0.999	Real	(O) True_negative
-242/500	cch96ge	nan	vote darling darling	Real	0.998	Real	(O) True_negative
-243/500	wu1al	cascwild.org	elk foundation rebuked over antiwolf remarks	Fake	0.998	Fake	(O) True_positive
-244/500	3w3emi	youtube.com	the men who made us fat one of my favorite ending to of mice and men for the squish at wtf	Real	0.997	Real	(O) True_negative
-245/500	cqks4oi	nan	ahwngoshi cant swim help	Real	0.999	Real	(O) True_negative
-246/500	8c9qzv	i.redd.it	infinity mirror the atmosphere of pluto	Real	0.967	Real	(O) True_negative
-247/500	btbjgo	i.redd.it	theorized location where jesus was resurrected near jerusalem	Real	0.902	Real	(O) True_negative
-248/500	c3xqxzg	nan	theyre all gonna laugh at you	Real	0.999	Real	(O) True_negative
-249/500	cjc9vtl	nan	a veteran level internet troll	Fake	0.554	Real	(E) Directed_to_expert
-250/500	ccwbi36	nan	other discussions	Real	1.0	Real	(O) True_negative
-251/500	d3t1u4	i.redd.it	man fights the first unwanted boner bc	Real	0.998	Real	(O) True_negative
-252/500	8yi0pe	i.redd.it	eastern front of ww	Real	0.999	Real	(O) True_negative
-253/500	cjoy3no	nan	camel head is the new horse head	Real	0.99	Real	(O) True_negative
-254/500	b7wr94	i.redd.it	a vibrator	Real	0.995	Real	(O) True_negative
-255/500	crevjk	i.redd.it	this cat lying next to a bottle	Fake	0.992	Fake	(O) True_positive
-256/500	d84hyj	i.redd.it	my deg bended thumb	Real	0.845	Fake	(X) False_negative
-257/500	3lajr6	i.imgur.com	f raptor	Real	0.996	Fake	(X) False_negative
-258/500	cu2en3	i.imgur.com	noticed this surprised fella on the inside of my barbecue	Real	0.987	Real	(O) True_negative
-259/500	cj31hv	i.redd.it	this buick logo in the buicks headlight	Fake	0.997	Fake	(O) True_positive
-260/500	cgosmlj	nan	e	Real	0.987	Real	(O) True_negative
-261/500	czf1ft	i.redd.it	these guards at gyeongbokgung palace	Fake	0.943	Fake	(O) True_positive
-262/500	5u40hk	i.reddituploads.co	dog with a mohawk	Fake	0.984	Fake	(O) True_positive
-263/500	c7w1ri4	nan	freed	Real	0.996	Real	(O) True_negative
-264/500	cm1bwn6	nan	why is he laughing at my booboo	Real	0.998	Real	(O) True_negative
-265/500	dju3iv	i.redd.it	the shadow of my boxers kinda look like a face	Real	0.682	Fake	(X) False_negative
-266/500	ca1fui	i.redd.it	pix game boy	Real	0.993	Real	(O) True_negative
-267/500	b4qnt5	i.redd.it	this is at the deli section of my local supermarket	Fake	0.968	Fake	(O) True_positive
-268/500	bbe5q3	i.redd.it	this happy lil mailbox looks like someone with a helmet	Fake	0.932	Real	(X) False_positive
-269/500	5nntl8	i.redd.it	rawr trex and minirex	Real	0.999	Real	(O) True_negative
-270/500	cama68	i.redd.it	from uairborneandrowdy no scrubs tlc	Real	0.999	Real	(O) True_negative
-271/500	cxogco	i.redd.it	i feel like this could work as an album by muse	Real	0.998	Real	(O) True_negative
-272/500	2ip8ix	i.imgur.com	crazy eyed dog	Fake	0.977	Fake	(O) True_positive
-273/500	r3reg	i.imgur.com	walking dead barn is unhappy about the burning zombies	Real	0.999	Real	(O) True_negative
-274/500	asghva	i.redd.it	stormy daniels first modeling assignment for the milk industry	Real	0.942	Real	(O) True_negative
-275/500	73g03u	i.imgur.com	what happens when you take all the air out of lays	Fake	0.989	Real	(X) False_positive
-276/500	4o19ib	self.SubredditSimu	build ready first build gaming build for a friends pro audioproduction rig	Real	0.919	Real	(O) True_negative
-277/500	ddcv6n	i.redd.it	brokeback mountain is released in cinemas	Real	0.998	Real	(O) True_negative
-278/500	3150xc	greece.greekreport	yanis varoufakis greece will adopt the bitcoin if eurogroup doesnt give us a deal	Fake	0.993	Fake	(O) True_positive
-279/500	2shpvg	boston.com	westport car dealership messes with pizza delivery guy feels internets wrath	Fake	0.998	Fake	(O) True_positive
-280/500	bpksj3	i.redd.it	the losing side of a nerf war	Real	0.997	Fake	(X) False_negative
-281/500	b5t5j9	i.redd.it	pandora periergeia	Real	0.999	Real	(O) True_negative
-282/500	d1k4oz	i.redd.it	life as a cardboard cup carrier must be rough	Real	0.998	Real	(O) True_negative
-283/500	cyr5bg	i.redd.it	this letter seal that was lit ablaze	Fake	0.756	Fake	(O) True_positive
-284/500	clkq16w	nan	cutouts	Real	0.999	Real	(O) True_negative
-285/500	ca9kgp	i.redd.it	this wall has paintedon bricks	Fake	0.998	Fake	(O) True_positive
-286/500	au9cia	i.redd.it	i found a rock with lots of rocks in it also what looks like a teeny tiny starfish fossil	Fake	0.999	Fake	(O) True_positive
-287/500	cm4m5m	i.redd.it	this connection on the puzzle my family is working on	Fake	0.99	Fake	(O) True_positive
-288/500	ylwy2	i.imgur.com	fried froggy	Real	0.987	Fake	(X) False_negative
-289/500	du8psg3	nan	old friends	Real	0.997	Real	(O) True_negative
-290/500	c52sqh	i.redd.it	snails in a truffle vinaigrette	Real	0.572	Real	(E) Directed_to_expert
-291/500	cv2sip	i.redd.it	join the raaf back them up uk	Real	0.999	Real	(O) True_negative
-292/500	bj4ssp	i.redd.it	went to vegas my hotel room lamps were watching me	Real	0.992	Real	(O) True_negative
-293/500	ckpafxf	nan	cutouts	Real	0.999	Real	(O) True_negative
-294/500	dg4gbeb	nan	bill isnt aging well	Real	0.991	Real	(O) True_negative
-295/500	1j3poz	i.imgur.com	my eye	Real	0.645	Real	(E) Directed_to_expert
-296/500	c4aszko	nan	spartans	Real	0.996	Real	(O) True_negative
-297/500	b1pm7q	i.imgur.com	eric andre and aoc	Fake	0.687	Fake	(O) True_positive
-298/500	drbe342	nan	yippee ki yay mona lisa	Real	0.998	Real	(O) True_negative
-299/500	c2q93h	i.redd.it	guy sitting too close to the edge	Fake	0.99	Fake	(O) True_positive
-300/500	ckk9oin	nan	home at last	Real	0.996	Real	(O) True_negative
-301/500	cuxtn2	i.redd.it	i found a little politoed on the ground	Fake	0.601	Fake	(E) Directed_to_expert
-302/500	98i0f3	i.redd.it	a row of toucans	Real	0.509	Real	(E) Directed_to_expert
-303/500	1egfp6	metro.co.uk	man stuck in mcdonalds baby high chair freed by police	Fake	0.999	Fake	(O) True_positive
-304/500	1dyn9e	imgur.com	robomonkey	Real	0.999	Real	(O) True_negative
-305/500	1ml48p	newyork.cbslocal.c	neighbors come to rescue in washington heights apartment fire	Fake	0.998	Fake	(O) True_positive
-306/500	b7kgyv	i.redd.it	this guy in lederhosen playing a traditional swiss alpine horn	Fake	0.942	Fake	(O) True_positive
-307/500	d8jlf5	i.redd.it	found this in the childs hospital few weeks ago	Real	0.873	Fake	(X) False_negative
-308/500	cm3oa6	i.redd.it	china celebrates its th anniversary of democracy and freedom since the assassination of ma	Real	0.992	Real	(O) True_negative
-309/500	5vttm7	i.imgur.com	a handdrawn map of estonia latvia and lithuania	Fake	0.984	Real	(X) False_positive
-310/500	bg003n	i.redd.it	the root system inside a potted plant	Fake	0.989	Fake	(O) True_positive
-311/500	7twl8z	i.redd.it	these guys in suits	Fake	0.775	Fake	(O) True_positive
-312/500	650alw	i.redd.it	rare image of a redditor making united airlines meme	Real	0.994	Real	(O) True_negative
-313/500	cyj7ppf	nan	the adventures of sherlock rbooks	Real	0.998	Real	(O) True_negative
-314/500	cywv36	i.redd.it	death grips the money store	Real	0.999	Real	(O) True_negative
-315/500	clz6j1v	nan	come at me bro	Real	0.997	Real	(O) True_negative
-316/500	aznj64	i.redd.it	the way the ice formed on this tire	Fake	0.998	Fake	(O) True_positive
-317/500	18mfr9	washingtonpost.com	nats practice interrupted by fish falling from the sky	Real	0.966	Fake	(X) False_negative
-318/500	300wz2	i.imgur.com	pallass cat on a rock growling	Fake	0.994	Fake	(O) True_positive
-319/500	2992d1	i.imgur.com	this unfinished eagle	Fake	0.688	Fake	(O) True_positive
-320/500	bfd01v	i.redd.it	barrons spotifys struggle	Real	0.999	Real	(O) True_negative
-321/500	bo2j6p	nytimes.com	jeff bezos unveils blue origins vision for space and a moon lander	Real	0.922	Fake	(X) False_negative
-322/500	bg4u7e	i.redd.it	this bottle has a cobra biting a scorpion inside	Fake	0.995	Fake	(O) True_positive
-323/500	cahzv14	nan	jonah can show you the world	Real	0.992	Real	(O) True_negative
-324/500	wj6fr	i.imgur.com	now you wouldnt believe me if i told you but i could run like the wind blows from that day	Real	0.91	Fake	(X) False_negative
-325/500	at7lgj	i.redd.it	cuban raft exodus	Real	0.985	Real	(O) True_negative
-326/500	clfpc5x	nan	mehnot quite but	Real	0.999	Real	(O) True_negative
-327/500	cjwebi	i.redd.it	this classic game	Real	0.965	Fake	(X) False_negative
-328/500	cmidsts	nan	how embarrassing	Real	0.997	Real	(O) True_negative
-329/500	bzv7kj	i.redd.it	from the dark into the light proletarians know your duty sdap dutch socialdemocrat workers	Real	0.999	Real	(O) True_negative
-330/500	ci4a3ki	nan	they were never really there	Real	0.996	Real	(O) True_negative
-331/500	2pvlnc	haaretz.com	texas plumber has no idea how truck got to syrian jihadists	Fake	0.984	Fake	(O) True_positive
-332/500	7vjnks	i.redd.it	this surprised duckling	Fake	0.997	Fake	(O) True_positive
-333/500	b237mz	i.redd.it	a watermelon i found at work today	Fake	0.988	Fake	(O) True_positive
-334/500	cb4sr7p	nan	a surprise winner at the olympics	Real	0.891	Real	(O) True_negative
-335/500	bh6qi6	i.redd.it	i abided i was asked to leave	Real	0.992	Fake	(X) False_negative
-336/500	92ma1s	i.redd.it	my cocktail last night told me i was a ravenclaw	Real	0.908	Real	(O) True_negative
-337/500	4narqq	i.imgur.com	a monsters mouth	Real	0.986	Real	(O) True_negative
-338/500	7ejqq5	reuters.com	irans president declares end of islamic state	Fake	0.998	Fake	(O) True_positive
-339/500	cb3e4o	i.imgur.com	this happy cactus	Real	0.804	Fake	(X) False_negative
-340/500	ckfrm5e	nan	nsfwwhat dreams come	Real	0.998	Real	(O) True_negative
-341/500	bv1g78	i.redd.it	the best graffiti i have seen	Fake	0.762	Fake	(O) True_positive
-342/500	c6z3zh	i.redd.it	i have a weed growing out of a broken electrical outlet	Fake	0.996	Fake	(O) True_positive
-343/500	d33xwn	i.redd.it	triggered angry whale noises	Real	0.999	Real	(O) True_negative
-344/500	dahhyl	i.imgur.com	a large variety of rubber ducks	Real	0.731	Fake	(X) False_negative
-345/500	c92jat	i.redd.it	stefan karl stefansson begins his entertainment career in the village peoples ymca	Real	0.999	Real	(O) True_negative
-346/500	4ur4ez	theonion.com	lone superdelegate voting for martin omalley feels like total fucking idiot	Real	0.945	Real	(O) True_negative
-347/500	5gudak	unvis.it	tests confirm that germanys massive nuclear fusion machine really works	Real	0.998	Real	(O) True_negative
-348/500	2y1h0v	i.imgur.com	maria sharapova in germany	Real	0.998	Fake	(X) False_negative
-349/500	e3pok0r	nan	when a couple of guys who were up to no good started making trouble in my neighborhood	Real	0.996	Real	(O) True_negative
-350/500	2qtt37	nyppagesix.files.w	pro skateboarder justin bieber	Fake	0.984	Fake	(O) True_positive
-351/500	1xi3m5	i.imgur.com	tampon string	Real	0.99	Real	(O) True_negative
-352/500	b9qhes	waterfordwhispersn	merkel sound now	Real	0.999	Real	(O) True_negative
-353/500	97s01a	i.redd.it	my new heaphone box is very happy that i opened it	Real	0.996	Real	(O) True_negative
-354/500	c8a1x8	i.redd.it	construction guys found this old cork bottle buried under my concrete slab after demo hous	Fake	0.992	Fake	(O) True_positive
-355/500	84ftld	i.redd.it	this jumping photo	Fake	0.997	Fake	(O) True_positive
-356/500	8hbrbb	imgur.com	communist prints china	Real	0.999	Real	(O) True_negative
-357/500	ckw5typ	nan	hey guys i just won the verne award	Real	0.991	Real	(O) True_negative
-358/500	1mm9ez	i.imgur.com	one very happy pack	Fake	0.669	Real	(X) False_positive
-359/500	dpldwga	nan	imgur	Real	0.998	Real	(O) True_negative
-360/500	1dvn4c	blog.foreignpolicy	dennis rodman asks the leader of north korea to do me a solid and release captive american	Real	0.987	Fake	(X) False_negative
-361/500	d02hwf	i.redd.it	this flower in my garden	Fake	0.981	Fake	(O) True_positive
-362/500	ctfzng	bbc.co.uk	man bitten by fidel castros crocodile	Real	0.995	Fake	(X) False_negative
-363/500	cvrui25	nan	in the immortal words of jean paul sartre au revoir quokka	Real	0.999	Real	(O) True_negative
-364/500	c962ff	i.redd.it	found a smaller bell pepper growing inside my orange bell pepper	Fake	0.999	Fake	(O) True_positive
-365/500	60wwn7	foxnews.com	former shelter dog helps save yearold girl left naked and alone	Fake	0.999	Fake	(O) True_positive
-366/500	91sw3y	i.redd.it	this cozy dog	Fake	0.994	Fake	(O) True_positive
-367/500	chrba0	i.redd.it	the omnis in gta has the ultimate owo on it	Real	0.603	Fake	(E) Directed_to_expert
-368/500	6581qa	web.archive.org	kim jong un shows off new symbol of strength	Fake	0.796	Real	(X) False_positive
-369/500	cji36te	nan	cutouts	Real	0.999	Real	(O) True_negative
-370/500	8m8e77	i.redd.it	earthquack	Real	0.999	Real	(O) True_negative
-371/500	4sj1wt	clickhole.com	this cartoon does a bad job of explaining what privilege is	Real	0.911	Real	(O) True_negative
-372/500	b0i1w2	i.redd.it	japanese training schools	Real	0.964	Real	(O) True_negative
-373/500	clqusk0	nan	this fish is rotteeeeeennnnnnnn shut it down	Real	0.997	Real	(O) True_negative
-374/500	6svfzh	bbc.co.uk	trump warns n korea be very very nervous	Fake	0.941	Fake	(O) True_positive
-375/500	3k9hmc	washingtonpost.com	pile of whale puke will auction for upwards of	Real	0.942	Fake	(X) False_negative
-376/500	c6h5drc	nan	the russian rises	Real	0.998	Real	(O) True_negative
-377/500	cou54b	i.redd.it	ctrlx come on down	Real	0.999	Real	(O) True_negative
-378/500	cvp2pu	imgur.com	this spotless ladybug	Fake	0.998	Fake	(O) True_positive
-379/500	4irxnz	bbc.co.uk	five in court over south yorkshire police helicopter sex films	Fake	0.997	Fake	(O) True_positive
-380/500	9il6y5	i.redd.it	a newborn sumatran rhino	Fake	0.996	Fake	(O) True_positive
-381/500	2wv4o7	i.imgur.com	highway	Real	0.871	Fake	(X) False_negative
-382/500	2t1p6f	flickr.com	county arcade victoria quarter leeds ocx	Real	0.897	Fake	(X) False_negative
-383/500	3q7g9v	i.imgur.com	guy in this shirt	Fake	0.905	Fake	(O) True_positive
-384/500	b6m3c7	eetimes.com	software wont fix boeings faulty airframe	Real	0.875	Fake	(X) False_negative
-385/500	c8jb40e	nan	splish splash	Real	0.997	Real	(O) True_negative
-386/500	ci3d7g	i.redd.it	my local cinema had to go to manual trading following a powercut	Fake	0.999	Fake	(O) True_positive
-387/500	85tbvp	i.redd.it	farewell american soldiers japanese leaflet for us troops world war ii	Real	0.999	Real	(O) True_negative
-388/500	89mqn0	i.redd.it	willy wonkas big day	Real	0.998	Real	(O) True_negative
-389/500	cmoovan	nan	two people wide	Real	0.998	Real	(O) True_negative
-390/500	d3x7o7b	nan	a new player has join the race	Real	0.999	Real	(O) True_negative
-391/500	3lak2v	fox8.com	teen dies after parents allegedly try to teach him a lesson by forcing him to drink	Fake	0.998	Fake	(O) True_positive
-392/500	c9y9de5	nan	we have a problem	Real	0.999	Real	(O) True_negative
-393/500	bxpmlz	i.redd.it	my dad gave me a newspaper from	Fake	0.994	Fake	(O) True_positive
-394/500	ctfq91e	nan	afrocircus	Real	0.998	Real	(O) True_negative
-395/500	cjcln5z	nan	doors of perception	Real	0.996	Real	(O) True_negative
-396/500	cqf67o	i.redd.it	christopher columbus discovers america	Real	0.999	Real	(O) True_negative
-397/500	c9d1nuy	nan	beat me to it	Real	0.992	Real	(O) True_negative
-398/500	8ks405	i.redd.it	us navy seal scouting out osama bin ladens hideout pakistan	Real	0.997	Real	(O) True_negative
-399/500	6p47de	streamable.com	christian group sues for right to lie	Fake	0.999	Real	(X) False_positive
-400/500	c59fdyd	nan	imgur	Real	0.998	Real	(O) True_negative
-401/500	de4czm	i.redd.it	this dog having the time of their life	Fake	0.989	Fake	(O) True_positive
-402/500	3do1r4	i.imgur.com	the bayern munich football team checking out an attractive assistant	Fake	0.957	Fake	(O) True_positive
-403/500	ci1cc1c	nan	oh my god	Real	0.999	Real	(O) True_negative
-404/500	9ez0mb	i.redd.it	this wendys drivethru has a mailbox	Fake	0.999	Fake	(O) True_positive
-405/500	c6nwr5	i.redd.it	the us coming up with ways to take revenge on japan after they bombed pearl harbor	Real	0.998	Real	(O) True_negative
-406/500	cw26p49	nan	here	Real	0.994	Real	(O) True_negative
-407/500	bnu14q	i.redd.it	splash mountian provides these ziplock bags to keep your phone dry	Fake	0.996	Fake	(O) True_positive
-408/500	4oq644	reuters.com	us backed syrian forces advance two km from center of islamic stateheld manbij	Fake	0.995	Fake	(O) True_positive
-409/500	cr2q8a	i.redd.it	looking down into a the bowl	Real	0.916	Real	(O) True_negative
-410/500	dj34u0	i.redd.it	a former survivor of the zombie outbreak is taken by a horde of the undead	Real	0.998	Real	(O) True_negative
-411/500	9dcutn	i.redd.it	when the ad promoted the video that you want to watch	Fake	0.503	Fake	(E) Directed_to_expert
-412/500	f1inezq	nan	sorry everybody	Real	0.999	Real	(O) True_negative
-413/500	cinps56	nan	went for a jog a little breakfast wouldnt hurt right	Real	0.987	Real	(O) True_negative
-414/500	5pmotg	usnews.com	why is this fed official worried about a solar storm	Fake	0.995	Fake	(O) True_positive
-415/500	bqyslh	i.redd.it	what would you caption this guys	Real	0.998	Real	(O) True_negative
-416/500	at9qct	imgur.com	these hm signs have opposite lights out	Fake	0.999	Fake	(O) True_positive
-417/500	dcozh3y	nan	everywhere fake news	Real	0.976	Real	(O) True_negative
-418/500	cm2gpml	nan	a presidential ice cream party	Real	0.973	Real	(O) True_negative
-419/500	8e8pa8	i.redd.it	a prisoner is waterboarded by us interrogators at guantanamo bay	Real	0.733	Real	(O) True_negative
-420/500	d7tvdb	i.redd.it	a restaurant gave us fruitsvegetables for my guinea pigs you can just ask	Fake	0.998	Fake	(O) True_positive
-421/500	bxrb2w	i.redd.it	pincher bugs earwigs sleep on flowers at night	Fake	0.984	Fake	(O) True_positive
-422/500	cn88yke	nan	oh damn white neighbors	Real	0.999	Real	(O) True_negative
-423/500	4xb846	mail.com	judge orders man free after years cites unfair trial	Fake	0.998	Fake	(O) True_positive
-424/500	d4i3xin	nan	homeward bound escape from la	Real	0.998	Real	(O) True_negative
-425/500	ax09m2	i.redd.it	even minnesota has a batman	Fake	0.987	Fake	(O) True_positive
-426/500	c9ftor3	nan	goodbye my little friend	Real	0.999	Real	(O) True_negative
-427/500	clgrq5i	nan	murca	Real	0.99	Real	(O) True_negative
-428/500	9eg34s	i.redd.it	a brick tumbled by the ocean	Real	0.556	Fake	(E) Directed_to_expert
-429/500	b0b05n	i.redd.it	it costs to have a pump included on this identical bottle of lotion	Fake	0.995	Fake	(O) True_positive
-430/500	74q2na	i.redd.it	this baby gorilla showing off his guns	Fake	0.992	Fake	(O) True_positive
-431/500	ckv0k53	nan	hey baby going my way	Real	0.993	Real	(O) True_negative
-432/500	cfaiqjq	nan	move outta the way kid	Real	0.998	Real	(O) True_negative
-433/500	2jqgc6	i.imgur.com	killer bridesmaid	Fake	0.569	Fake	(E) Directed_to_expert
-434/500	c7l5wy8	nan	short on ideas for holodeck cosplay	Real	0.916	Real	(O) True_negative
-435/500	8vsrzl	i.redd.it	eye cloud	Real	0.593	Real	(E) Directed_to_expert
-436/500	d3ie3qu	nan	mission complete	Real	0.993	Real	(O) True_negative
-437/500	azzdft	sports.theonion.co	dirk nowitzki shatters backboard glass with powerful soprano singing voice	Fake	0.998	Real	(X) False_positive
-438/500	958otz	ctvnews.ca	dog train hops to downtown toronto	Fake	0.987	Fake	(O) True_positive
-439/500	b7u9q3	i.redd.it	my friends old concert tickets	Fake	0.994	Fake	(O) True_positive
-440/500	340rmj	youtube.com	smutley the cat aids psa nsfw	Real	0.998	Real	(O) True_negative
-441/500	9c3rx4	i.redd.it	granite kettles natural selection	Real	0.998	Real	(O) True_negative
-442/500	beqckk	i.redd.it	el chapo defending himself in court decolourised	Real	0.996	Real	(O) True_negative
-443/500	6wn2tu	i.redd.it	cat sitting in chair	Fake	0.998	Fake	(O) True_positive
-444/500	dgeey7n	nan	the floor is lava	Real	0.997	Real	(O) True_negative
-445/500	dgup999	nan	last jedi poster	Real	0.996	Real	(O) True_negative
-446/500	ekarao9	nan	snoop dogg and pkitty	Real	0.998	Real	(O) True_negative
-447/500	cmdj9rm	nan	fox news	Fake	0.659	Real	(X) False_positive
-448/500	8crahg	i.redd.it	rare ipod widescreen prototype	Real	0.996	Real	(O) True_negative
-449/500	d51ctyt	nan	hrrgrhaahhh	Real	1.0	Real	(O) True_negative
-450/500	1yp8s0	i.imgur.com	cat looking down	Fake	0.996	Fake	(O) True_positive
-451/500	e2azkkf	nan	bill nye the party guy	Real	0.899	Real	(O) True_negative
-452/500	b5k3ie	i.redd.it	the artwork and most of the info on my favorite coffee mug has washed away leaving behind 	Fake	0.776	Fake	(O) True_positive
-453/500	6k3uaz	i.redd.it	a girl carrying a goat who just gave birth and the dog carrying the baby	Fake	0.993	Fake	(O) True_positive
-454/500	cwch1ev	nan	donald trump cat	Fake	0.884	Real	(X) False_positive
-455/500	60jhhz	imgur.com	farmer discovers kittens in barn but when they grow he realizes theyre not house cats	Real	0.974	Real	(O) True_negative
-456/500	b35b5b	i.redd.it	someone dumped out their water bottle and it made the shape of a eurypterid	Fake	0.982	Fake	(O) True_positive
-457/500	802jzy	i.imgur.com	puppies devour child circa	Real	0.998	Real	(O) True_negative
-458/500	c6y360c	nan	be vaary quiat	Real	0.999	Real	(O) True_negative
-459/500	dpf6vtv	nan	life is hard	Real	0.999	Real	(O) True_negative
-460/500	11ma3u	abcnews.go.com	jetblue will fly upset voters out of the country	Fake	0.982	Fake	(O) True_positive
-461/500	32tppf	i.imgur.com	a carrot shaped like a foot	Fake	0.998	Fake	(O) True_positive
-462/500	c9zpx4r	nan	had a go at it myself	Real	0.997	Real	(O) True_negative
-463/500	clsu2e9	nan	cutouts	Real	0.999	Real	(O) True_negative
-464/500	4chpuc	i.imgur.com	tippi hedren playing with her pet lion	Fake	0.976	Fake	(O) True_positive
-465/500	c6n7bmd	nan	more jpeg	Real	0.999	Real	(O) True_negative
-466/500	385wjl	abc.net.au	false invoices easy to spot because sacked executive could not spell	Fake	0.675	Fake	(O) True_positive
-467/500	2pwaix	flickr.com	the natural history museum london super high resolution x	Real	0.776	Fake	(X) False_negative
-468/500	cx4okn	i.redd.it	someone made doom in roblox and it really works	Real	0.984	Fake	(X) False_negative
-469/500	cjxtjp	i.redd.it	this moth i found on my way to work	Fake	0.968	Fake	(O) True_positive
-470/500	3i6q28	imgur.com	kindred ties words are devils	Real	0.999	Real	(O) True_negative
-471/500	8l2fw4	i.redd.it	leon one eyed wonder	Real	0.959	Real	(O) True_negative
-472/500	dhtrmd	i.redd.it	i dropped a fairly straight tube of mayo and this is how it landed	Fake	0.997	Fake	(O) True_positive
-473/500	dda7h2k	nan	streetfighter	Real	0.996	Real	(O) True_negative
-474/500	c7wpzqw	nan	cool hats	Real	0.994	Real	(O) True_negative
-475/500	cadnjsp	nan	liftoff	Real	0.998	Real	(O) True_negative
-476/500	8d4dtb	i.redd.it	yaldi self titled experimental album thanks to umokimo for the photo	Real	0.999	Real	(O) True_negative
-477/500	5bp3za	medium.com	the definitive dnc guide to cybersecurity	Real	0.724	Real	(O) True_negative
-478/500	c7dbe9v	nan	this thing has been terrorizing my backyard	Real	0.997	Real	(O) True_negative
-479/500	1bl9aj	i.imgur.com	karate flying technique	Real	0.934	Fake	(X) False_negative
-480/500	dmf4b2b	nan	bill nye nye nye nye	Real	0.996	Real	(O) True_negative
-481/500	ccgg8ac	nan	not a single grenade one yet	Real	0.998	Real	(O) True_negative
-482/500	5btvlf	theonion.com	poll finds of americans still undecided whether to vote out of fear or spite	Real	0.989	Real	(O) True_negative
-483/500	352g8f	reuters.com	furry fourlegged intruder makes surprise visit to australian hospital	Fake	0.995	Fake	(O) True_positive
-484/500	5fkh63	i.reddituploads.co	this unflattering picture of donald trump	Fake	0.961	Fake	(O) True_positive
-485/500	azzktf	i.redd.it	australia inplements new anthem	Real	0.998	Real	(O) True_negative
-486/500	5ok7ec	reuters.com	us makes million grant to climate change fund state department	Fake	1.0	Fake	(O) True_positive
-487/500	b3m12q	i.redd.it	a solid piece of flavouring in my corn nibbles packet	Fake	0.999	Fake	(O) True_positive
-488/500	cvgbeq	i.redd.it	surprised shower head	Real	0.995	Real	(O) True_negative
-489/500	cc69ax	i.redd.it	these preportioned udon noodles i got my scale out to weigh oz to find they did it for me 	Fake	0.999	Fake	(O) True_positive
-490/500	dnhyduk	nan	fast rider	Real	0.683	Real	(O) True_negative
-491/500	7gz1mw	i.imgur.com	this is mitch mcconnell and he began selling america out to the telecom lobbies in	Real	0.98	Real	(O) True_negative
-492/500	dh5ql3q	nan	trump gets handson experience	Real	0.967	Real	(O) True_negative
-493/500	2ifwzf	standard.co.uk	disillusioned british jihadists stuck in turkey because they are too scared to come back t	Real	0.998	Fake	(X) False_negative
-494/500	14fnxp	i.imgur.com	him	Real	0.999	Real	(O) True_negative
-495/500	dim5mty	nan	angry baby	Real	0.537	Real	(E) Directed_to_expert
-496/500	c769o2	i.redd.it	this sign in a restaurant	Fake	0.997	Fake	(O) True_positive
-497/500	cv8ta4v	nan	disaster pratt	Real	0.999	Real	(O) True_negative
-498/500	7ymux2	i.redd.it	reading the manifesto of russia painting by grigoriy myasoyedov	Real	0.994	Real	(O) True_negative
-499/500	f29yrr4	nan	httpsiimgurcomxcvuzmtjpg	Real	1.0	Real	(O) True_negative
-500/500	9d18ci	i.redd.it	root growing from a rock	Fake	0.918	Fake	(O) True_positive
+1/500	7xd98r	i.imgur.com	leslie scott playing the first game of jenga	Real	0.882	Real	(O) True_negative
+2/500	6bjgy9	i.reddituploads.co	i must see this film now i love reeses and memeing annoying google ad	Real	0.939	Real	(O) True_negative
+3/500	7mck5r	i.redd.it	blitz basic blood in the water	Real	0.963	Real	(O) True_negative
+4/500	8yzq95	i.redd.it	theres a tiny angel on the side of my fireplace	Real	0.792	Real	(O) True_negative
+5/500	chkick	i.redd.it	my family just found out that we are an ennobled austrian family i live in sweden this is 	Real	0.845	Fake	(X) False_negative
+6/500	6g7rnl	i.imgur.com	traffic light long exposure	Fake	0.94	Fake	(O) True_positive
+7/500	953vwl	imgur.com	embry the locket	Real	0.968	Real	(O) True_negative
+8/500	73sxyw	i.redd.it	friendly reminder to recycle	Real	0.946	Real	(O) True_negative
+9/500	38nb5o	i.imgur.com	barack obama and a baby	Fake	0.962	Fake	(O) True_positive
+10/500	8qpq8l	i.redd.it	billie eilish dont smile at me ep	Real	0.947	Real	(O) True_negative
+11/500	dav0h9	i.redd.it	battle of the walkers ww	Real	0.957	Real	(O) True_negative
+12/500	cldobr	i.redd.it	woman with horns texting in a bar	Fake	0.947	Real	(X) False_positive
+13/500	19598k	i.imgur.com	rand paul looks like hes attempting his best dana carvey church lady impersonation	Fake	0.907	Fake	(O) True_positive
+14/500	8raxnr	archive.is	hillary clinton has a word response to the news james comey used private email for work	Fake	0.549	Real	(E) Directed_to_expert
+15/500	bxqa3l	i.redd.it	my cucumber plant	Fake	0.949	Fake	(O) True_positive
+16/500	auf8ui	i.redd.it	gavrillo princip moments before the assassination of archduke franz ferdinand c colorised	Real	0.966	Real	(O) True_negative
+17/500	8kmvf5	reddit.com	they grow em big down under	Fake	0.906	Real	(X) False_positive
+18/500	7vtih0	bayoubrief.com	team trumps k payment to stormy daniels was illegal argues leading national expert in camp	Fake	0.949	Fake	(O) True_positive
+19/500	dativw	i.redd.it	iphones on a subway	Fake	0.542	Real	(E) Directed_to_expert
+20/500	blvnmz	i.redd.it	hospital birth bill night stay	Fake	0.868	Fake	(O) True_positive
+21/500	91k8ey	clickhole.com	social media misfire applebees has apologized after tweeting that was a big mood with a pi	Fake	0.646	Real	(E) Directed_to_expert
+22/500	10jw52	i.imgur.com	giant caterpillar eating jalapeno	Fake	0.857	Fake	(O) True_positive
+23/500	1j2qk4	imgur.com	my eyes	Real	0.953	Real	(O) True_negative
+24/500	2j2wkc	i.imgur.com	nephew being launched in the air	Fake	0.961	Fake	(O) True_positive
+25/500	5aqjny	i.reddituploads.co	important moment in the space race	Real	0.973	Real	(O) True_negative
+26/500	dhiikg	i.redd.it	eminem recalibration	Real	0.955	Real	(O) True_negative
+27/500	7ru1qx	imgur.com	lamp at my inlaws	Fake	0.892	Real	(X) False_positive
+28/500	9hlajo	i.redd.it	a stone wall	Real	0.835	Real	(O) True_negative
+29/500	71qxlx	i.redd.it	dog posing in her new bed	Fake	0.963	Fake	(O) True_positive
+30/500	6ynxze	clickhole.com	video get enraged patriots the deep state has been sending me fresh seasonal ingredients a	Real	0.953	Real	(O) True_negative
+31/500	3lur0i	imgur.com	the american river ganges harpers weekly it depicts catholic clergy as crocodiles invading	Real	0.955	Real	(O) True_negative
+32/500	7su3gs	i.redd.it	mountain goat leaping	Fake	0.904	Fake	(O) True_positive
+33/500	1n1e62	i.imgur.com	joe biden and hillary clinton	Fake	0.928	Fake	(O) True_positive
+34/500	60lrzo	web.archive.org	murder in space nasa orders astronauts to kill cripples then fire bodies back to earth	Real	0.83	Real	(O) True_negative
+35/500	1siey0	bbc.co.uk	comic relief money invested in arms and tobacco shares	Fake	0.931	Fake	(O) True_positive
+36/500	ax25ou	i.redd.it	found this yk britney spears fragrance collection at a thrift store today but i couldnt fi	Fake	0.818	Fake	(O) True_positive
+37/500	ddb7jw	smithsonianmag.com	dolphins are finally living and breeding in the potomac river again	Fake	0.956	Fake	(O) True_positive
+38/500	4wdn17	imgur.com	diane was at this moment as the twister world champion didnt prepare her for her birthday 	Real	0.934	Real	(O) True_negative
+39/500	cnycpm	eaworldview.com	ww russian antiturkish poster	Real	0.959	Real	(O) True_negative
+40/500	4v38ri	i.redd.it	small penguin on the beach	Fake	0.876	Fake	(O) True_positive
+41/500	1lag0f	i.imgur.com	cat looks like its singing	Fake	0.927	Fake	(O) True_positive
+42/500	81ujfr	i.redd.it	a sea of people at woodstock	Real	0.672	Real	(O) True_negative
+43/500	dfliii	today.com	the kids have grown up so the legos have piled up whats a parent to do now theres a soluti	Fake	0.967	Fake	(O) True_positive
+44/500	1t678w	gma.yahoo.com	lost diamond ring in christmas tree lot returned to grateful owner	Fake	0.972	Fake	(O) True_positive
+45/500	6sqjwi	imgur.com	mustache man is unamused bluecoats	Real	0.884	Real	(O) True_negative
+46/500	b7plzg	i.redd.it	our annual easter egg decorating competition at work is just around the corner here is my 	Fake	0.921	Fake	(O) True_positive
+47/500	8vvbuu	i.redd.it	messiers the evil within	Real	0.969	Real	(O) True_negative
+48/500	5vr3h6	theonion.com	man leaves position he would kill for years from now to pursue dream job	Real	0.953	Real	(O) True_negative
+49/500	au11te	i.redd.it	someone at the factory left a sunflower seed inside this solar light	Fake	0.97	Fake	(O) True_positive
+50/500	636z3y	theguardian.com	dalai lamas emotional reunion with guard who aided flight from tibet buddhist leader meets	Fake	0.966	Fake	(O) True_positive
+51/500	cratrx	archive.is	avengers endgame directors reveal the surprising cameos that were most difficult to pull o	Fake	0.653	Real	(X) False_positive
+52/500	dgn0il	i.redd.it	this traffic sign prohibits any vehicles passing except autonomous cars	Fake	0.962	Fake	(O) True_positive
+53/500	7wqphd	fox23.com	friends unite to help homeless tulsa man	Fake	0.967	Fake	(O) True_positive
+54/500	3o3xlk	abc13.com	parents claim realistic halloween display is scaring their kids	Fake	0.943	Fake	(O) True_positive
+55/500	b471wh	imgur.com	owo whats this	Real	0.969	Real	(O) True_negative
+56/500	8itmoc	reddit.com	gotcha	Real	0.884	Real	(O) True_negative
+57/500	bel316	i.redd.it	happy juicer	Real	0.969	Real	(O) True_negative
+58/500	4i79vy	m.cdn.blog.hu	this dog on the beach in a strange position	Fake	0.958	Fake	(O) True_positive
+59/500	5jebfj	youtube.com	request pls someone green screen version of sonic but can anyone mlg this infinite potenti	Real	0.966	Real	(O) True_negative
+60/500	31mjnv	hurriyetdailynews.	turkey rejects julianne moore as tourism face over poor acting	Fake	0.959	Fake	(O) True_positive
+61/500	7yu1d0	i.redd.it	harvey weinstein	Real	0.959	Real	(O) True_negative
+62/500	4aorm5	patch.com	farmingdale state college reports of armed man found to be guy with toy lightsaber	Fake	0.941	Fake	(O) True_positive
+63/500	2cpo9h	i.imgur.com	this picture of sean connery in zardoz	Fake	0.917	Fake	(O) True_positive
+64/500	5k7zyh	i.redd.it	good luck and every xmas to all uk wwi christmas card	Real	0.964	Real	(O) True_negative
+65/500	1kj2v5	imgur.com	marine skydiving	Fake	0.962	Fake	(O) True_positive
+66/500	3g3tzp	independent.co.uk	whole foods stops selling water filled with asparagus after realising its ridiculous	Fake	0.89	Fake	(O) True_positive
+67/500	28shy5	i.imgur.com	a man holding a sign	Fake	0.862	Fake	(O) True_positive
+68/500	beaej7	i.redd.it	strawberry kinda looks like baby bird	Fake	0.734	Fake	(O) True_positive
+69/500	3gg6xa	i.imgur.com	my armband isnt feeling well	Real	0.951	Real	(O) True_negative
+70/500	3ovu3d	time.com	an australian chicken restaurant has a live chicken running its twitter	Fake	0.907	Fake	(O) True_positive
+71/500	9eiccd	imgur.com	is there something on my face	Real	0.968	Real	(O) True_negative
+72/500	2wgqsf	smithsonianmag.com	to avoid deer strikes finland is painting deer antlers with reflective paint	Fake	0.943	Fake	(O) True_positive
+73/500	3w2bfh	i.telegraph.co.uk	gondola with journalists floats in front of foggy city	Fake	0.862	Fake	(O) True_positive
+74/500	3aptfo	bbc.co.uk	partick thistles kingsley will bring shame on the good name of mascots	Fake	0.952	Fake	(O) True_positive
+75/500	7ypkhb	i.redd.it	this icelandic pony photobomb	Fake	0.963	Fake	(O) True_positive
+76/500	2lyw53	i.imgur.com	a man walking his pet crab	Fake	0.97	Fake	(O) True_positive
+77/500	7ee8mw	i.pinimg.com	the western capercaillie tetrao urogallus is the smallest anteater in the s are now in dan	Real	0.613	Real	(E) Directed_to_expert
+78/500	6z8irq	i.redd.it	a row of barstools	Real	0.835	Real	(O) True_negative
+79/500	499bee	i.imgur.com	a big dog scared little dog	Fake	0.902	Fake	(O) True_positive
+80/500	1vvqfp	nj.com	lacey spa again accused of illegally giving massages to opposite sex customers	Fake	0.966	Fake	(O) True_positive
+81/500	cppscx	i.redd.it	i bought this and thought its a watermelon	Fake	0.773	Fake	(O) True_positive
+82/500	9f5ecc	i.redd.it	british forces attempt to breach a disable german tank	Real	0.974	Real	(O) True_negative
+83/500	1cjc6h	i.imgur.com	digitized operator of the peoples liberation armys special operations force from rmilitary	Real	0.51	Fake	(E) Directed_to_expert
+84/500	cq0is5	i.redd.it	hey who took our planksoh nevermind	Real	0.928	Real	(O) True_negative
+85/500	39udl7	miamiherald.com	childrens hospital opens clinic for transgender children	Fake	0.967	Fake	(O) True_positive
+86/500	chnwp1	i.redd.it	car or micro machine	Real	0.524	Real	(E) Directed_to_expert
+87/500	bp0dgv	i.redd.it	dawson stunted life	Real	0.968	Real	(O) True_negative
+88/500	cfsifo	i.redd.it	this cryptic fortune i got	Fake	0.972	Fake	(O) True_positive
+89/500	3dha8a	i.imgur.com	this beautifully ugly dog	Fake	0.931	Fake	(O) True_positive
+90/500	43vxei	i.imgur.com	hollywood hot sauce patient dramatic serious genial	Real	0.966	Real	(O) True_negative
+91/500	c6tf05	i.imgur.com	this not a chicken nug this is a piece of a seasoning brick used on doritos	Fake	0.932	Fake	(O) True_positive
+92/500	9ia96m	i.redd.it	the stranglewanks were all going to die	Real	0.968	Real	(O) True_negative
+93/500	8smgs7	independent.co.uk	man stabbed himself to death while trying to prove to friends his vest was stabproof inque	Fake	0.961	Fake	(O) True_positive
+94/500	9dn7fq	i.redd.it	devout christian om his way to jerusalem to help in the crusades ad	Real	0.937	Real	(O) True_negative
+95/500	43j729	i.imgur.com	ww antijapanese propoganda reacting to the bataan death x	Real	0.971	Real	(O) True_negative
+96/500	c4surc	i.redd.it	i found a circular root	Fake	0.942	Fake	(O) True_positive
+97/500	c3dgvz	i.redd.it	this man with a bowl of grapes	Fake	0.946	Fake	(O) True_positive
+98/500	5nsyoz	wjla.com	dons johns portapotties get name taped over at site of the donalds inauguration	Fake	0.957	Fake	(O) True_positive
+99/500	dbc5uc	i.redd.it	saw this horsedrawn cart in england last week	Fake	0.942	Fake	(O) True_positive
+100/500	cpeu9i	i.redd.it	europeans deciding which country to colonize next circa	Real	0.963	Real	(O) True_negative
+101/500	9job5h	i.pinimg.com	condom factory assembly line	Real	0.947	Real	(O) True_negative
+102/500	c0bqdx	i.redd.it	the way this car watches the traffic	Fake	0.952	Fake	(O) True_positive
+103/500	4e8mjr	i.imgur.com	rescuer shows off his huge white swan	Fake	0.96	Fake	(O) True_positive
+104/500	bsi4ze	i.redd.it	found a owl pellet at school	Fake	0.956	Fake	(O) True_positive
+105/500	4ws4m3	archive.is	shawn johnson reveals embarrassing truth behind memorable olympic picture	Real	0.971	Real	(O) True_negative
+106/500	8hy9ja	i.redd.it	close your eye and imagine you are home st	Real	0.947	Real	(O) True_negative
+107/500	6tr7o9	i.imgur.com	picture of jesus christ baptizing his disciples painted by michelangelo circa aby	Real	0.971	Real	(O) True_negative
+108/500	1qkfkf	independent.co.uk	arsenal fan loses house in wager against manchester united fan who staked his car and wife	Fake	0.972	Fake	(O) True_positive
+109/500	166i2x	i.imgur.com	falling surfer girl	Fake	0.957	Fake	(O) True_positive
+110/500	6tyf92	i.redd.it	ww allied forces special forces member meets up with leader of grassroots anti fascist res	Real	0.975	Real	(O) True_negative
+111/500	5s5yi5	press-citizen.com	university of iowa dance marathon raises record million for supporting pediatric oncology 	Fake	0.964	Fake	(O) True_positive
+112/500	6666py	edition.cnn.com	fbi used dossier allegations to bolster trumprussia investigation	Fake	0.931	Fake	(O) True_positive
+113/500	47yvf0	upi.com	new jersey man returns library book years late	Fake	0.964	Fake	(O) True_positive
+114/500	aw77ay	imgur.com	pig in a top hat	Real	0.511	Real	(E) Directed_to_expert
+115/500	bxnknx	i.imgur.com	this mango that my cousin found in the wild	Fake	0.966	Fake	(O) True_positive
+116/500	6ktf8h	i.redd.it	trumps unfortunate hand position with bill clinton	Fake	0.835	Fake	(O) True_positive
+117/500	awib8b	i.redd.it	this poster at my local accountants office	Fake	0.962	Fake	(O) True_positive
+118/500	7u24nx	archive.is	can you unlock your car door using a tennis ball	Fake	0.579	Real	(E) Directed_to_expert
+119/500	cczlar	i.redd.it	a page from american flagg seems like it could be written today	Real	0.874	Fake	(X) False_negative
+120/500	bazs79	i.redd.it	theres a mini library in front of my rec center	Fake	0.972	Fake	(O) True_positive
+121/500	dh9atc	i.imgur.com	my aunt has this coin bank shaped like a hotdogshaped dog	Fake	0.946	Fake	(O) True_positive
+122/500	2bm6b9	i.imgur.com	a screenshot from the newest pixar movie	Real	0.663	Real	(O) True_negative
+123/500	1tsue8	i.imgur.com	a fluffy arboreal pussycat from central asia	Fake	0.873	Fake	(O) True_positive
+124/500	9hggwl	i.redd.it	lenin giving a speech in st petersburg russia circa	Real	0.965	Real	(O) True_negative
+125/500	9g16ng	i.redd.it	the way to westminster punch cartoon on threats to the british postwar labour government	Real	0.95	Real	(O) True_negative
+126/500	1enczw	i.imgur.com	cow fight	Fake	0.925	Fake	(O) True_positive
+127/500	12m5vb	flickr.com	a hanoi policemans glare	Fake	0.951	Fake	(O) True_positive
+128/500	6c3rbu	washingtonpost.com	analysis	Real	0.718	Fake	(X) False_negative
+129/500	ch6l4a4	nan	cutouts	Real	0.909	Real	(O) True_negative
+130/500	2017ta	nydailynews.com	hung done disgusted williamsburg waves goodbye to spiderman and rubber penis	Fake	0.888	Fake	(O) True_positive
+131/500	1ixgnj	i.imgur.com	my little cousin flying off his skimboard	Fake	0.964	Fake	(O) True_positive
+132/500	38yx5d	carthrottle.com	hammond and to reject psm bbc deal in favour of joining clarkson at netflix	Fake	0.916	Fake	(O) True_positive
+133/500	bycfu5	i.redd.it	green chili plant loves its home in the greenhouse what begins in the bowl ends in the bow	Fake	0.739	Fake	(O) True_positive
+134/500	cqlibm	i.redd.it	unicorn ink sploge	Fake	0.521	Real	(E) Directed_to_expert
+135/500	asp55l	newsweek.com	cleveland man punches his lawyer in face after being sentenced to years for pistolwhipping	Fake	0.961	Fake	(O) True_positive
+136/500	bvr2aq	i.redd.it	this rock i found that looks like a shark tooth	Fake	0.957	Fake	(O) True_positive
+137/500	b9v6kl	i.redd.it	my moms on a melissa etheridge cruise and just sent me the passenger stats	Fake	0.948	Fake	(O) True_positive
+138/500	5hvie0	qz.com	bill gates jeff bezos jack ma and other investors worth billion are launching a cleanenerg	Fake	0.94	Fake	(O) True_positive
+139/500	cdorw6	i.redd.it	central intelligence agency gets caught smuggling drugs to innercity gangs	Real	0.869	Real	(O) True_negative
+140/500	8hghr4	v.redd.it	climbing without proper equipment	Fake	0.799	Real	(X) False_positive
+141/500	crj642	i.redd.it	german communist party headquarters berlin	Real	0.9	Real	(O) True_negative
+142/500	b9i8ei	axios.com	senate republicans block resolution to release mueller report for th time	Fake	0.925	Fake	(O) True_positive
+143/500	6k4007	npr.org	air pollution still kills thousands in us every year shots health news npr	Fake	0.954	Fake	(O) True_positive
+144/500	80ivhd	i.redd.it	justin trudeau visits japan	Real	0.963	Real	(O) True_negative
+145/500	6d8m5q	newshub.co.nz	pigeon busted smuggling drugs in tiny backpack	Fake	0.95	Fake	(O) True_positive
+146/500	czpfvv	i.redd.it	my school has a concrete mattress	Fake	0.968	Fake	(O) True_positive
+147/500	6e3k9r	i.redditmedia.com	books on a shelf	Real	0.935	Real	(O) True_negative
+148/500	6bpkls	archive.is	she was the perfect daycare worker until a newlyinstalled camera captured her doing this t	Fake	0.596	Real	(E) Directed_to_expert
+149/500	ctyjio	i.redd.it	this white container of pepper that came in the salt and pepper combo pack	Fake	0.968	Fake	(O) True_positive
+150/500	85qywh	i.redd.it	beyonce wearing a golden dress	Fake	0.947	Fake	(O) True_positive
+151/500	4me9mf	edition.cnn.com	americans dying at highest rate since	Fake	0.706	Fake	(O) True_positive
+152/500	210n8p	i.imgur.com	only in russia	Fake	0.811	Fake	(O) True_positive
+153/500	audksa	i.redd.it	hitler during his final moments at the battle of berlin	Real	0.97	Real	(O) True_negative
+154/500	cpx3qn	i.redd.it	trippie redd	Real	0.956	Real	(O) True_negative
+155/500	cvvbcx	i.redd.it	two fused tide pods	Fake	0.929	Fake	(O) True_positive
+156/500	32yrbm	sun-sentinel.com	man with nunchucks attacks employee outside japanese restaurant police say	Fake	0.965	Fake	(O) True_positive
+157/500	cb63ssq	nan	strutting leo	Real	0.584	Real	(E) Directed_to_expert
+158/500	bz02op	i.redd.it	a perfect rainbow around the sun	Fake	0.962	Fake	(O) True_positive
+159/500	601ayt	npr.org	norwegian pension fund divests from companies behind dapl	Fake	0.942	Fake	(O) True_positive
+160/500	65syj0	i.imgur.com	first performance of power rangers live in moscow	Real	0.84	Real	(O) True_negative
+161/500	czhizm	i.redd.it	ship throwing up gang signs in iceland decolourised	Real	0.934	Real	(O) True_negative
+162/500	75ztqu	i.redd.it	badass monkey	Real	0.943	Real	(O) True_negative
+163/500	91nccy	sfgate.com	find your passion thats bad advice scientists say	Fake	0.91	Fake	(O) True_positive
+164/500	5kqmme	metro.co.uk	man from the uk built a shelter for homeless couple and their dog as a christmas present	Fake	0.968	Fake	(O) True_positive
+165/500	788b4b	i.redd.it	ravil yusipov i wanna sleep alone	Real	0.964	Real	(O) True_negative
+166/500	cmfm67	i.redd.it	this two adorable thieves	Fake	0.91	Fake	(O) True_positive
+167/500	4lww4d	chicago.cbslocal.c	suit mcdonalds latenight drivethru policy discriminates against blind people	Fake	0.961	Fake	(O) True_positive
+168/500	arminf	i.redd.it	from my plane window this river valley at the perfect altitude for fog to form making it l	Fake	0.914	Fake	(O) True_positive
+169/500	2hhxxc	i.imgur.com	those dimples	Real	0.623	Real	(E) Directed_to_expert
+170/500	b63o6f	imgur.com	something started growing under our wall	Fake	0.91	Fake	(O) True_positive
+171/500	cd5oyk	i.redd.it	gasp	Real	0.965	Real	(O) True_negative
+172/500	92i5ym	i.redd.it	president obama killing osama bin laden	Real	0.957	Real	(O) True_negative
+173/500	bvtj6s	imgur.com	the iridescence of this mosquito	Fake	0.973	Fake	(O) True_positive
+174/500	d8g0z8	i.redd.it	at the right angle you can see straight through my crested geckos head	Fake	0.934	Fake	(O) True_positive
+175/500	bgrtax	i.imgur.com	dog enjoying cherry blossoms	Fake	0.966	Fake	(O) True_positive
+176/500	b29xgk	i.redd.it	this building is built to look line its laying on its side	Fake	0.903	Real	(X) False_positive
+177/500	6vz6tw	i.redd.it	this grizzled old pup	Fake	0.942	Fake	(O) True_positive
+178/500	b62m5y	i.redd.it	this phone at a hospital in manama bahrain has a colour code on the handset for emergencie	Fake	0.972	Fake	(O) True_positive
+179/500	cuixa6	i.redd.it	bateman watermark	Real	0.966	Real	(O) True_negative
+180/500	9f198d	i.redd.it	this train ticket i bought today is valid thru	Fake	0.971	Fake	(O) True_positive
+181/500	c6jw6e	i.redd.it	a bird devouring a big fish	Fake	0.889	Fake	(O) True_positive
+182/500	c6cy50	i.redd.it	disney releases rare photo of chewbacca luke han solo leia and george lucas	Real	0.933	Real	(O) True_negative
+183/500	870b6s	usatoday.com	for our lives could be the biggest singleday protest in dcs history	Fake	0.844	Fake	(O) True_positive
+184/500	2k7zt7	kfor.com	suspect says satan made him smash into oklahoma ten commandments monument	Fake	0.967	Fake	(O) True_positive
+185/500	3xyk72	i.imgur.com	national library of china	Fake	0.779	Fake	(O) True_positive
+186/500	50bj9t	i.imgur.com	hold my beer while i jump over a house	Fake	0.733	Real	(X) False_positive
+187/500	5gg3ca	myfox8.com	sky art pilots route spells hello on flight tracking radar map	Fake	0.925	Fake	(O) True_positive
+188/500	b1olhf	i.redd.it	icicles forming one long one off of my grandmothers homemade birdhouse	Fake	0.96	Fake	(O) True_positive
+189/500	c69tki	imgur.com	dutch construction workers find unexploded british phosphor bomb college evacuated	Fake	0.96	Fake	(O) True_positive
+190/500	blqkxz	news.sky.com	i love him hes innocent pamela anderson visits julian assange in prison	Real	0.885	Fake	(X) False_negative
+191/500	cue8mr	worcesternews.co.u	worcester cricket bat attack suspect tells court i dont even like cricket	Fake	0.965	Fake	(O) True_positive
+192/500	6jyul7	shortstorylovers.c	how the earth came to be a satire story	Fake	0.603	Real	(E) Directed_to_expert
+193/500	b3cea9	citizen.co.za	penis cleaner elicits mixed reaction on social media	Fake	0.955	Fake	(O) True_positive
+194/500	95h89b	i.redd.it	gods eye in clouds	Real	0.548	Real	(E) Directed_to_expert
+195/500	8x60q3	i.redd.it	this rock has no eyes but is definitely a mouth breather	Real	0.789	Real	(O) True_negative
+196/500	3g0rxf	startribune.com	fat kids dont know theyre fat anymore	Fake	0.599	Fake	(E) Directed_to_expert
+197/500	9c4d0a	i.redd.it	this one part of my computer is magnetic	Fake	0.875	Fake	(O) True_positive
+198/500	d84pvt	i.redd.it	the way the light is reflected on my can	Fake	0.973	Fake	(O) True_positive
+199/500	1juxra	hothardware.com	over percent of americans verbally or physically abuse their computers	Fake	0.903	Fake	(O) True_positive
+200/500	68nocv	i.redd.it	this smiley guy with his arm extended	Fake	0.795	Fake	(O) True_positive
+201/500	d0m76w	i.imgur.com	smiling hat	Real	0.945	Real	(O) True_negative
+202/500	bwox9h	i.redd.it	i got a double chicken nugget	Fake	0.903	Fake	(O) True_positive
+203/500	6i6m0v	bloomberg.com	senator angus kings voice of reason rises from the swamp bloomberg	Fake	0.926	Fake	(O) True_positive
+204/500	14ykc2	i.imgur.com	woah lion	Fake	0.844	Fake	(O) True_positive
+205/500	ddql5f	i.redd.it	crack in the sidewalk looks like a pepper oc	Fake	0.827	Fake	(O) True_positive
+206/500	1pg1yh	entertainment.time	after weeks of deliberation china okays gravity for theaters	Fake	0.948	Fake	(O) True_positive
+207/500	8ckf41	imgur.com	decapitated cat	Real	0.902	Real	(O) True_negative
+208/500	5g9f0s	news18.com	gujarat municipality asks cattle to drop not more than kg of dung per day	Fake	0.96	Fake	(O) True_positive
+209/500	bec5fm	i.redd.it	this perfectly round jungle hill	Fake	0.88	Real	(X) False_positive
+210/500	76y1z0	i.imgur.com	diamonds and circles	Real	0.945	Real	(O) True_negative
+211/500	2bxz21	i.imgur.com	turkish mine protester	Fake	0.928	Fake	(O) True_positive
+212/500	9b9qc4	archive.is	is social media influencing book cover design	Real	0.922	Real	(O) True_negative
+213/500	dkvgwc	i.redd.it	the road workers of sweden is probebly lazy considering they left this leaf here when they	Fake	0.926	Fake	(O) True_positive
+214/500	az1ep8	i.redd.it	militarism agressioon konfrontatsioon ussr s	Real	0.969	Real	(O) True_negative
+215/500	3huqll	i.imgur.com	this bridesmaid dismounting a bouncy castle	Fake	0.969	Fake	(O) True_positive
+216/500	cexy4y	i.redd.it	thomas the tank engine captain of the confederate forces is executed for his warcrimes th 	Real	0.964	Real	(O) True_negative
+217/500	9dvo0g	i.redd.it	the way this toast landed on the toaster	Fake	0.961	Fake	(O) True_positive
+218/500	312t37	insider.foxnews.co	va forces vet to get xray to prove his leg is missing	Fake	0.958	Fake	(O) True_positive
+219/500	cqtry1	i.redd.it	i found these four conjoined sour patch kids	Fake	0.96	Fake	(O) True_positive
+220/500	c6p5hz	imgur.com	this pepper looks like it stitched itself back together	Fake	0.938	Fake	(O) True_positive
+221/500	bj4ssp	i.redd.it	went to vegas my hotel room lamps were watching me	Real	0.951	Real	(O) True_negative
+222/500	31h433	i.imgur.com	horchata smiling at me d	Real	0.955	Real	(O) True_negative
+223/500	9joz2h	i.redd.it	this titanic door stop	Fake	0.919	Fake	(O) True_positive
+224/500	469ob2	imgur.com	this figure skater	Fake	0.964	Fake	(O) True_positive
+225/500	1filsj	i.imgur.com	angry pasta	Real	0.953	Fake	(X) False_negative
+226/500	3bf1dz	theonion.com	god knocked unconscious by directtv satellite	Real	0.925	Real	(O) True_negative
+227/500	2qfw6l	espn.go.com	fan who got lions super bowl tattoo still really optimistic about chances	Fake	0.891	Fake	(O) True_positive
+228/500	avj3s2	i.redd.it	unpopularopinion blends into the man it targets	Real	0.898	Fake	(X) False_negative
+229/500	b8m4gk	i.redd.it	italian ww postcard true aspirations showing italian speaking regions trentino and trieste	Real	0.971	Real	(O) True_negative
+230/500	bs361k	npr.org	killed as violent tornadoes cause devastation in missouri	Fake	0.949	Fake	(O) True_positive
+231/500	4a2zdw	i.imgur.com	an owl just after takeoff	Fake	0.958	Fake	(O) True_positive
+232/500	4xmjyr	i.redd.it	shot put gold michelle carter	Fake	0.952	Fake	(O) True_positive
+233/500	c6z9t1	i.redd.it	recycling aluminium cans at jersey zoo provides enough money to grow one tree on brazil ov	Fake	0.97	Fake	(O) True_positive
+234/500	3iezud	i.imgur.com	got this sweet purp today at a	Real	0.819	Real	(O) True_negative
+235/500	chg3ez	cbc.ca	scientist lays out ridiculous plan to pump artificial snow over melting antarctic	Fake	0.753	Fake	(O) True_positive
+236/500	bzfwfc	i.redd.it	the window is the head for this bathroom sign	Fake	0.954	Fake	(O) True_positive
+237/500	9cazq7	i.redd.it	snowflakes are partially gold	Real	0.856	Real	(O) True_negative
+238/500	7c4r0s	imgur.com	this family of bigfoot was in my deli meat	Real	0.775	Real	(O) True_negative
+239/500	6f4skg	imgur.com	bolshevism unmasked german wwii	Real	0.971	Real	(O) True_negative
+240/500	456g9t	imgur.com	orange is terrified of being harvested	Real	0.948	Real	(O) True_negative
+241/500	6u2w7w	i.imgur.com	sunda colugo	Fake	0.873	Fake	(O) True_positive
+242/500	3jkz4i	uk.news.yahoo.com	sinn fein politician slams partitionist mcdonalds burger	Fake	0.907	Fake	(O) True_positive
+243/500	c1rzeo	i.redd.it	the way the oil wax is slowly making its way down through this porous soap stone burner	Fake	0.937	Fake	(O) True_positive
+244/500	as2fte	i.redd.it	this rock i found out in my pasture as a childnever figured out what it was though	Fake	0.964	Fake	(O) True_positive
+245/500	6p0u57	commons.wikimedia.	the shame of america do you know that the united states is the only land on earth where hu	Real	0.959	Real	(O) True_negative
+246/500	8zdufo	i.redd.it	cat yawning out of box	Fake	0.965	Fake	(O) True_positive
+247/500	czt2co	i.redd.it	hes confused	Real	0.973	Real	(O) True_negative
+248/500	c05f4m	i.redd.it	sorting through some old suitcases in my grandparents attic and found this gem of currency	Fake	0.887	Fake	(O) True_positive
+249/500	6xep1b	i.redd.it	slab of bacon	Real	0.949	Real	(O) True_negative
+250/500	d35tuy	i.redd.it	statue sevn	Real	0.962	Real	(O) True_negative
+251/500	bxa0fd	i.redd.it	why fly when you can tow your plane instead	Fake	0.749	Fake	(O) True_positive
+252/500	972zrx	imgur.com	this sad grill maybe he just wants to be cleaned	Real	0.97	Real	(O) True_negative
+253/500	2f3m0w	i.imgur.com	my vacuum cleaners bags seem really surprised about the fact that im going to get rid of t	Real	0.949	Real	(O) True_negative
+254/500	59frd3	i.imgur.com	shellshocked soldier	Real	0.969	Real	(O) True_negative
+255/500	c7mxyg	i.redd.it	earth as seen from the iss	Real	0.566	Real	(E) Directed_to_expert
+256/500	as6rl0	i.redd.it	i just found it that my grandfather gave me nintendo cards from the time they still made t	Fake	0.959	Fake	(O) True_positive
+257/500	3jfur5	diply.com	pornhub wants to give students to learn stuff not that kind of stuff	Fake	0.959	Fake	(O) True_positive
+258/500	2ewqiv	i.imgur.com	dog in a swing	Fake	0.965	Fake	(O) True_positive
+259/500	1lfy63	guns.com	superhero wannabe shoots arrow wrapped with marijuana at county jail tells police he was a	Fake	0.923	Fake	(O) True_positive
+260/500	2spoq7	i.imgur.com	hes on the forefront of gay folk nihilism simon c dik you walk into an open sewer and die 	Real	0.973	Real	(O) True_negative
+261/500	6ob9gm	usatoday.com	rosie odonnell sparks outrage with trumpkilling game	Fake	0.502	Fake	(E) Directed_to_expert
+262/500	4eqb87	exeterexpressandec	devon man sues organisers of sex festival after they bar him because of lack of references	Fake	0.966	Fake	(O) True_positive
+263/500	1nv2kk	i.imgur.com	the horror the horror	Real	0.971	Real	(O) True_negative
+264/500	baojct	i.imgur.com	marmalade the one you are looking for is you	Real	0.972	Real	(O) True_negative
+265/500	8ltlws	clickhole.com	episodes of tales from the crypt where the crypt keeper is too angry that sinead oconnor t	Real	0.955	Real	(O) True_negative
+266/500	7er0uj	9news.com.au	podiatry experts from la trobe university in melbourne have designed a shoe that could hel	Fake	0.961	Fake	(O) True_positive
+267/500	3txugx	wwltv.com	chief no greater selfless act than med student shot trying to save woman	Fake	0.918	Fake	(O) True_positive
+268/500	98j1yz	i.redd.it	day island spiritual power	Real	0.97	Real	(O) True_negative
+269/500	cbmfgk	i.redd.it	i found this lil guy in my bag of soil replanted to see what it will end up as	Fake	0.953	Fake	(O) True_positive
+270/500	ar4zfz	i.redd.it	good f luck with your environment	Fake	0.676	Fake	(O) True_positive
+271/500	8giwop	i.redd.it	twerking man photobombed by dog	Fake	0.823	Real	(X) False_positive
+272/500	8xzxuq	i.redd.it	quiet pines meeting distance	Real	0.97	Real	(O) True_negative
+273/500	84dezg	i.imgur.com	someones had a bit too much coffee	Real	0.968	Real	(O) True_negative
+274/500	dklxkb	i.redd.it	you guys probably wont believe me but i got two fruit by the footsfeet in one wrapper	Fake	0.891	Fake	(O) True_positive
+275/500	95pflw	bbc.co.uk	edinburgh universitys spare places will go to people from deprived areas	Fake	0.972	Fake	(O) True_positive
+276/500	2q17qz	i.imgur.com	santa spreading holiday cheer rounds per minute	Fake	0.96	Fake	(O) True_positive
+277/500	54n6pm	self.SubredditSimu	some pokemon spawns are designed to make gameplay very meh for me and its getting boring	Real	0.908	Real	(O) True_negative
+278/500	10o6ys	i.imgur.com	my year old neighbor just put this up halloween is going to be fun this year	Fake	0.735	Fake	(O) True_positive
+279/500	74vbpi	i.imgur.com	khaleed realization	Real	0.968	Real	(O) True_negative
+280/500	1iszxz	i.imgur.com	enthusiastic meter	Real	0.964	Real	(O) True_negative
+281/500	255r8d	i.imgur.com	a badass crow riding a vulture	Fake	0.937	Fake	(O) True_positive
+282/500	1rg796	972mag.com	woman fined a day for refusing to circumcise son	Fake	0.963	Fake	(O) True_positive
+283/500	cz6i2e	i.redd.it	gays are allowed to serve in the military	Fake	0.763	Real	(X) False_positive
+284/500	66pw2i	i.redd.it	this future xgames champion	Fake	0.941	Fake	(O) True_positive
+285/500	9c8p3u	i.redd.it	these two dogs on a stroll	Real	0.56	Fake	(E) Directed_to_expert
+286/500	5vyeja	reuters.com	opponent of dutertes drugs war arrested in philippines on drug charges	Fake	0.959	Fake	(O) True_positive
+287/500	6jufwc	cnbc.com	billionaire warren buffett says the real problem with the us economy is people like him	Fake	0.933	Fake	(O) True_positive
+288/500	7hsdm2	politics.theonion.	new rnc ad endorses roy moore hes a scumbag but hes our scumbag	Fake	0.828	Real	(X) False_positive
+289/500	4pldl6	fox4kc.com	teens offer to carry groceries for food gets unexpected outpouring of support from a fb po	Fake	0.963	Fake	(O) True_positive
+290/500	b5jwyq	i.redd.it	the kfc in japan has braille on the cup cover	Fake	0.95	Fake	(O) True_positive
+291/500	5ylzrt	theguardian.com	mexican town pays tribute to firework blast victims with pyrotechnic display	Fake	0.966	Fake	(O) True_positive
+292/500	cmbvdu	i.redd.it	moments before the big bang billion years ago	Real	0.953	Real	(O) True_negative
+293/500	bhmddu	i.redd.it	the cat ramp on this house	Fake	0.858	Fake	(O) True_positive
+294/500	d6n0on	archive.is	yang predicts trumps nickname for him	Fake	0.907	Real	(X) False_positive
+295/500	5uxmig	emlii.com	croatian scientists mixed a sugar solution with a bill longer than its body at the risk to	Fake	0.954	Real	(X) False_positive
+296/500	5vqhmi	i.redd.it	soultzeren hautrhin france	Fake	0.889	Fake	(O) True_positive
+297/500	36zdi6	i.imgur.com	track field woman clearing a hurdle	Fake	0.966	Fake	(O) True_positive
+298/500	b2xo1p	i.redd.it	madlad charles dickens trolls future generations by naming his book the last thing anyone 	Real	0.957	Real	(O) True_negative
+299/500	27af5w	i.imgur.com	something different a picture of the dc th of sky two years ago	Fake	0.76	Fake	(O) True_positive
+300/500	bmf81l	i.redd.it	i was walking my dog when i came upon this massive nest high in the trees anyone know what	Fake	0.916	Fake	(O) True_positive
+301/500	77va2q	i.imgur.com	stationary bike cheering me on	Real	0.963	Real	(O) True_negative
+302/500	6di820	streamable.com	boy with cancer asks comedian to attend his funeral but he has one special request	Fake	0.924	Real	(X) False_positive
+303/500	7d19im	i.redd.it	polish babushka during the cold war ussr	Real	0.923	Real	(O) True_negative
+304/500	36zixa	wsj.com	saudi girls finally get to drive but only in a videogame	Fake	0.949	Fake	(O) True_positive
+305/500	7n07d9	bbc.co.uk	uk had greenest year for electricity	Fake	0.965	Fake	(O) True_positive
+306/500	3d8q98	sfglobe.com	the new york city ballet conducts workshops for disabled children	Fake	0.968	Fake	(O) True_positive
+307/500	bix6n2	i.redd.it	he was bitten over times and lived to be crippled because the tone of the most loyal soldi	Real	0.969	Real	(O) True_negative
+308/500	8ygjeu	i.imgur.com	germany announces surrender to soviet union	Real	0.975	Real	(O) True_negative
+309/500	2b5g79	i.imgur.com	found something on the interstate	Real	0.957	Real	(O) True_negative
+310/500	92y2ti	i.redd.it	continental household rubbish	Real	0.838	Real	(O) True_negative
+311/500	2suzfe	i.imgur.com	an abandoned wad of gum i found in a parking lot looked just like a perfect little chicken	Fake	0.882	Real	(X) False_positive
+312/500	3rr1ag	imgur.com	robots on the bus	Real	0.919	Real	(O) True_negative
+313/500	b2l2lq	patriothole.clickh	patriots rejoice donald trump has appointed professor rat as the us secretary of fireworks	Real	0.756	Real	(O) True_negative
+314/500	5vtulw	i.reddituploads.co	a kitten with huge eyes next to a tv remote	Fake	0.805	Fake	(O) True_positive
+315/500	85ld8c	local.theonion.com	dad recommends hotel miles away from city youre visiting	Real	0.674	Real	(O) True_negative
+316/500	c7nn5i	i.redd.it	chickenshaped gum on footpath adelaide airport sa australia	Fake	0.755	Fake	(O) True_positive
+317/500	bu7ew9	i.redd.it	my kids clothes should be kept away from fire who knew	Fake	0.898	Fake	(O) True_positive
+318/500	2to93p	i.imgur.com	princess vader	Fake	0.955	Fake	(O) True_positive
+319/500	4o34lb	foxnews.com	ancient stilledible chunk of butter unearthed in irish bog	Fake	0.862	Fake	(O) True_positive
+320/500	2p7wp3	i.imgur.com	two guys enjoying a rather large gummy worm	Fake	0.622	Fake	(E) Directed_to_expert
+321/500	9a9k38	gfycat.com	nazi forces continuous artillery bombardment of bastogne	Real	0.97	Real	(O) True_negative
+322/500	76r8b1	imgur.com	this little guy loves getting folded up	Real	0.917	Real	(O) True_negative
+323/500	6xxuee	i.redd.it	honor the brave united states memorial day	Real	0.954	Real	(O) True_negative
+324/500	6g8o36	telegraph.co.uk	larry the cat holds the fort outside number as country is plunged into chaos	Real	0.91	Fake	(X) False_negative
+325/500	3c1aej	i.imgur.com	black hebrew israelite tauntcurse c very rare low resolution	Real	0.964	Real	(O) True_negative
+326/500	2caqa7	i.imgur.com	an old man holding shears	Fake	0.96	Fake	(O) True_positive
+327/500	3f0tjh	fox8.com	cleveland police union to raffle gun in fundraiser for officer accused of shooting teen	Fake	0.964	Fake	(O) True_positive
+328/500	bh1gj5	imgur.com	the ice ball sealed off the bottom half of the cup	Fake	0.962	Fake	(O) True_positive
+329/500	6tkant	imgur.com	dinosaur extinction according to the wall of my friends came to see some incredible ice fl	Real	0.951	Real	(O) True_negative
+330/500	d28e1n	dailysquat.com	donald trump promises to eradicate swedish terrorist network alikea	Real	0.857	Real	(O) True_negative
+331/500	78q153	i.redd.it	unenthusiastic baloon solid snake	Fake	0.812	Fake	(O) True_positive
+332/500	5fogxp	i.imgur.com	forever urban agriculture	Real	0.971	Real	(O) True_negative
+333/500	b2tumb	i.redd.it	sanitary door opener	Fake	0.92	Fake	(O) True_positive
+334/500	89jd7q	i.redd.it	beautiful custom mechanical keyboard	Fake	0.563	Real	(E) Directed_to_expert
+335/500	72zqg0	i.redd.it	transboundary breed secret of collective life	Real	0.969	Real	(O) True_negative
+336/500	9d8q2v	i.redd.it	my halfandhalf was separated	Fake	0.956	Fake	(O) True_positive
+337/500	cekvwo	i.redd.it	found a pig nipple in our supply of pork rinds	Fake	0.943	Fake	(O) True_positive
+338/500	vaoi3	infowars.com	woman arrested for groping tsa supervisor	Fake	0.777	Fake	(O) True_positive
+339/500	at7swb	idahostatesman.com	federal judge in idaho denies companys bid to get back truck it says is filled with hemp	Fake	0.961	Fake	(O) True_positive
+340/500	disjv9	i.redd.it	my daughters coat has a system to allow it to grow with her	Fake	0.969	Fake	(O) True_positive
+341/500	7g6kj2	i.redd.it	saint patrick teaching the irish about the holy trinity	Real	0.97	Real	(O) True_negative
+342/500	2s44go	i.imgur.com	cannonball gymnast	Fake	0.933	Fake	(O) True_positive
+343/500	8xent4	i.redd.it	oh the horrible things hes seen	Real	0.967	Real	(O) True_negative
+344/500	8888rj	imgur.com	uk politician says those accused of rape in their reviews to protect net neutrality	Fake	0.899	Real	(X) False_positive
+345/500	47t9ms	independent.co.uk	every man in iranian village executed on drugs charges	Fake	0.889	Fake	(O) True_positive
+346/500	1eajhi	i.imgur.com	lovely family photo	Real	0.604	Fake	(E) Directed_to_expert
+347/500	645x86	i.kinja-img.com	hockey players watching a puck as it crosses the goal line	Fake	0.96	Fake	(O) True_positive
+348/500	axr858	i.redd.it	hillary clinton running for president	Real	0.972	Real	(O) True_negative
+349/500	70bzal	c1.staticflickr.co	chester town hall court room england	Fake	0.894	Fake	(O) True_positive
+350/500	3q3ssq	i.imgur.com	windy night in carnegie hall ny philharmonic brahms double concerto	Fake	0.887	Fake	(O) True_positive
+351/500	8kso1v	i.redd.it	babyarm	Real	0.901	Real	(O) True_negative
+352/500	3knw2k	i.imgur.com	frog riding a snail	Fake	0.962	Fake	(O) True_positive
+353/500	7loa9q	i.imgur.com	this photo really got to run out of boredom waiting for other countries races america take	Real	0.961	Real	(O) True_negative
+354/500	dgl8o9	i.redd.it	mr cod fish n chips ft the godfather	Real	0.763	Fake	(X) False_negative
+355/500	777cn2	clickhole.com	video patriothole exclusive stanford phd reveals hidden conservative book of the bible whe	Real	0.893	Real	(O) True_negative
+356/500	35a96z	drscdn.500px.org	a little owl in the wind photographed by max rinaldi	Fake	0.954	Fake	(O) True_positive
+357/500	ceftmd	imgur.com	this tree has decades of coins in its root	Fake	0.959	Fake	(O) True_positive
+358/500	c688mjl	nan	oh shit dude	Real	0.894	Real	(O) True_negative
+359/500	b3axr6	i.redd.it	shadow of the stairs stopping the snow from melting	Fake	0.937	Fake	(O) True_positive
+360/500	df6vd4	i.redd.it	hand sanitizer contraption when leaving bathroom at my hotel	Fake	0.974	Fake	(O) True_positive
+361/500	av7w82	dw.com	halal meat cannot be labeled organic ecj rules	Fake	0.959	Fake	(O) True_positive
+362/500	54e1oy	imgur.com	oh yes put your bottom on me	Real	0.97	Real	(O) True_negative
+363/500	bhmaxy	imgur.com	this optical illusion created by window reflections and sunlight	Fake	0.921	Fake	(O) True_positive
+364/500	57ygca	archive.is	black friday has been dethroned theres a new biggest shopping day of the year	Fake	0.921	Real	(X) False_positive
+365/500	7jq45z	i.redd.it	sith lord eyes up new opponent	Real	0.948	Real	(O) True_negative
+366/500	6bv3jf	washingtonpost.com	sheriff david clarke of milwaukee reports accepting a position at the department of homela	Fake	0.797	Fake	(O) True_positive
+367/500	xcj7n	i.imgur.com	warrior nsfw	Real	0.626	Fake	(E) Directed_to_expert
+368/500	4w5699	independent.co.uk	italy changes law to encourage all supermarkets to give unsold food to needy	Fake	0.966	Fake	(O) True_positive
+369/500	c5usaf	i.redd.it	quack rock	Real	0.854	Real	(O) True_negative
+370/500	31ml6r	yahoo.com	moving gesture by trader joes employee	Fake	0.958	Fake	(O) True_positive
+371/500	cijhbi	i.redd.it	this candle bent over in the european heat	Fake	0.955	Fake	(O) True_positive
+372/500	asvszs	i.redd.it	open hallway bed in busy canadian er has been named back hall	Fake	0.918	Fake	(O) True_positive
+373/500	cgf6se	i.redd.it	garfield the animated series crushes its competitors including shows such as rick and mort	Real	0.942	Real	(O) True_negative
+374/500	71f94p	imgur.com	this coffee lid has seen some shit	Real	0.962	Real	(O) True_negative
+375/500	5uh1kp	nyti.ms	r alexander acosta law school dean is trumps new pick for labor	Fake	0.946	Fake	(O) True_positive
+376/500	6jrob1	i.imgur.com	this is the last dodos death the director knew about the right to privacy because i have n	Real	0.959	Real	(O) True_negative
+377/500	1k074n	i.imgur.com	ponderous monkey	Fake	0.962	Fake	(O) True_positive
+378/500	29cn4t	i.imgur.com	creepy zippermouthed purse in the mall	Real	0.955	Real	(O) True_negative
+379/500	1iwlst	i.imgur.com	i got a little excited at the purduemichigan basketball game that was nationally televised	Fake	0.888	Fake	(O) True_positive
+380/500	43y50p	news4sanantonio.co	convicted drunk driver claims his body makes its own alcohol	Fake	0.965	Fake	(O) True_positive
+381/500	cly1i2	i.redd.it	this long avocado	Fake	0.906	Fake	(O) True_positive
+382/500	7dnpp0	i.redd.it	electronic antichrist temporarily disable microtransactions before drowning thousands of i	Real	0.964	Real	(O) True_negative
+383/500	b2b229	latimes.com	fallout from college admissions scandal worsening for accused parents schools	Fake	0.962	Fake	(O) True_positive
+384/500	eisfye1	nan	john the baptist	Real	0.943	Real	(O) True_negative
+385/500	9g8ecf	i.redd.it	rhodesians never die rhodesia date unknown	Real	0.97	Real	(O) True_negative
+386/500	8wkymd	imgur.com	newlyelected sheriff joe arpaio st speech january arizonacolorized	Real	0.94	Real	(O) True_negative
+387/500	d7a8s5	i.redd.it	the straws at my local italian restaurant are pasta	Fake	0.973	Fake	(O) True_positive
+388/500	b5x08j	i.redd.it	this infinite mirror looked pretty intense	Real	0.744	Fake	(X) False_negative
+389/500	2bs62z	3dprint.com	year old boy hugs mom for first time thanks to the worlds first d printed myoelectric arm	Fake	0.961	Fake	(O) True_positive
+390/500	2d69dh	i.imgur.com	the last thing you see before you die	Real	0.957	Real	(O) True_negative
+391/500	1s8vlr	boston.cbslocal.co	swedish band the hives dedicates song about stuff blowing up to boston during concert at t	Fake	0.875	Fake	(O) True_positive
+392/500	4un5xm	i.imgur.com	a super cell above texas	Fake	0.922	Fake	(O) True_positive
+393/500	4oqamx	imgur.com	aww poor little guy	Real	0.956	Real	(O) True_negative
+394/500	50njnc	sciencebulletin.or	nondrug approaches effective for treatment of common pain conditions review suggests	Fake	0.953	Fake	(O) True_positive
+395/500	bk1ksp	cnet.com	razer ceo confirms development of the razer toaster	Fake	0.686	Fake	(O) True_positive
+396/500	cpazrd	i.imgur.com	this beer has a guinness world record	Fake	0.965	Fake	(O) True_positive
+397/500	36kq9a	imgur.com	you can click but you cant hide mpaa antipiracy	Real	0.913	Real	(O) True_negative
+398/500	2asxtb	i.imgur.com	a canola field by my house	Fake	0.931	Fake	(O) True_positive
+399/500	9gie83	i.redd.it	frost queen mermaid	Fake	0.521	Real	(E) Directed_to_expert
+400/500	6ffady	i.redd.it	rd	Real	0.969	Real	(O) True_negative
+401/500	9fidhx	i.redd.it	the squirrel from comedy wildlife photography awards	Fake	0.958	Fake	(O) True_positive
+402/500	2srm4v	imgur.com	chinese panamanian avalon	Real	0.952	Real	(O) True_negative
+403/500	5wqzwl	i.imgur.com	this basenji with its mouth open	Fake	0.943	Fake	(O) True_positive
+404/500	5v5g7q	clickhole.com	life sorry horny boys but these curvaceous topiaries are pretty much the sexiest thing we 	Real	0.909	Real	(O) True_negative
+405/500	3iro5q	i.imgur.com	ultimate frisbee practice	Fake	0.962	Fake	(O) True_positive
+406/500	cvcrox	i.redd.it	street cleaner avoiding a tree creates an eye	Fake	0.92	Fake	(O) True_positive
+407/500	4ovyq7	independent.co.uk	university of miami to establish the worlds first chair of atheism studies	Fake	0.944	Fake	(O) True_positive
+408/500	1p59v6	i.imgur.com	back away woman	Fake	0.597	Fake	(E) Directed_to_expert
+409/500	6eynj6	i.imgur.com	protest poster of cold war cccpsoviet union and usa illustrated by roman cieslewicz france	Real	0.969	Real	(O) True_negative
+410/500	6ovgt3	c2.staticflickr.co	miller arcade preston england	Fake	0.941	Fake	(O) True_positive
+411/500	d6onbm	imgur.com	potatoes or geodes	Real	0.909	Fake	(X) False_negative
+412/500	bpwxax	i.redd.it	lil praying mantis lighter for scale	Fake	0.953	Fake	(O) True_positive
+413/500	8eyilz	i.redd.it	rowan atkinson and his ride	Fake	0.962	Fake	(O) True_positive
+414/500	c8371z	i.redd.it	this cherry with another cherry growing off of it	Fake	0.968	Fake	(O) True_positive
+415/500	7jdu1w	v.redd.it	takeoff	Real	0.848	Real	(O) True_negative
+416/500	49kjwy	i.imgur.com	presidential candidate marco rubio and a painting of himself	Fake	0.95	Fake	(O) True_positive
+417/500	9a8kg1	wral.com	money really does lead to a more satisfying life	Fake	0.565	Fake	(E) Directed_to_expert
+418/500	bimq3g	pbs.twimg.com	this interesting potato	Real	0.823	Fake	(X) False_negative
+419/500	3p4nbs	archivohistoricopc	poster for la fiesta del pce an annual communist party of spain celebration in	Real	0.972	Real	(O) True_negative
+420/500	az829q	i.redd.it	bodies of water shades	Real	0.745	Fake	(X) False_negative
+421/500	2y9c0z	i.imgur.com	found these concerned little fellows at work last night	Real	0.967	Real	(O) True_negative
+422/500	4a0knc	nytimes.com	law school graduate suing her law school because she cant get a job	Fake	0.966	Fake	(O) True_positive
+423/500	6ymo02	i.redd.it	the two dogs staring at each other	Fake	0.854	Fake	(O) True_positive
+424/500	53cmcc	orlandosentinel.co	deputies naked man breaks in home bites resident then dies	Fake	0.97	Fake	(O) True_positive
+425/500	19702s	i.imgur.com	protester crouched midair jumping on the bonnet of a riot van	Fake	0.956	Fake	(O) True_positive
+426/500	brvsg5	in.pcmag.com	microsoft removes huawei laptop from its store arm stops working with huawei	Fake	0.916	Fake	(O) True_positive
+427/500	4lbjuc	archive.is	what game could possibly make a kid this sad	Real	0.941	Real	(O) True_negative
+428/500	2z76wj	i.imgur.com	stone portrait of conan o brian	Fake	0.892	Real	(X) False_positive
+429/500	clt5vu	i.redd.it	my fortune cookie without a fortune	Fake	0.966	Fake	(O) True_positive
+430/500	1edf54	i.imgur.com	this little guy obviously didnt like it when his fountain was removed	Real	0.577	Real	(E) Directed_to_expert
+431/500	ci4onf	i.redd.it	early morning walk discovery	Fake	0.524	Fake	(E) Directed_to_expert
+432/500	c2og9g	i.redd.it	flamethrower being used to clear a building during the battle of okinawa	Real	0.968	Real	(O) True_negative
+433/500	ct47l1	i.redd.it	stalingrad is taken ww norway	Real	0.971	Real	(O) True_negative
+434/500	99e1ah	i.redd.it	profile in this rock formation red rocks co	Real	0.544	Real	(E) Directed_to_expert
+435/500	62pkv1	i.imgur.com	pt barnum during the first performance of the greatest show on earth	Real	0.962	Real	(O) True_negative
+436/500	1uy4if	kcci.com	boy donates chore money to help replace lost books	Fake	0.967	Fake	(O) True_positive
+437/500	82t7f9	abc3340.com	new study shows marrying your first cousin is not as bad as it seems	Fake	0.671	Fake	(O) True_positive
+438/500	b8ril6	washingtonpost.com	federal reserve chair calls income inequality the biggest challenge in next years	Fake	0.942	Fake	(O) True_positive
+439/500	342rnc	whenonearth.net	treeclimbing goats	Fake	0.948	Fake	(O) True_positive
+440/500	6vbwfl	arstechnica.com	verizon to start throttling all smartphone videos to p or p	Fake	0.929	Fake	(O) True_positive
+441/500	cjmkwa	i.redd.it	all my vitamin gummies melted into one big super gummy during their delivery	Fake	0.968	Fake	(O) True_positive
+442/500	cqtrb6	i.redd.it	aluminum conduit polished by years of hands while going down the stairs at work	Fake	0.937	Fake	(O) True_positive
+443/500	5uvyfw	washingtonpost.com	pence tells european allies us strongly supports nato and will be unwavering in its commit	Fake	0.928	Fake	(O) True_positive
+444/500	5jjcnw	reuters.com	orlando nightclub victims families sue twitter google facebook	Fake	0.96	Fake	(O) True_positive
+445/500	dbzbzk	i.redd.it	moses after descending from mount sinai bc	Real	0.973	Real	(O) True_negative
+446/500	4h7i3d	medium.com	satire how texas has standing to challenge dapa deferred action for parents of americans a	Fake	0.597	Real	(E) Directed_to_expert
+447/500	cmjej3	i.redd.it	this restaurant has cleavers as door handles	Fake	0.972	Fake	(O) True_positive
+448/500	5s1ebj	i.redd.it	recently declassified photo from the manhattan project	Real	0.975	Real	(O) True_negative
+449/500	chj73a	i.redd.it	the writing of the war guilt clause circa	Real	0.972	Real	(O) True_negative
+450/500	1cw5hw	i.imgur.com	some proud looking lunch ladys	Fake	0.635	Fake	(E) Directed_to_expert
+451/500	41497t	manchestereveningn	police receive call after man attacks woman in manchester city centre with kebab	Fake	0.957	Fake	(O) True_positive
+452/500	66hx53	bbc.co.uk	panama papers pakistan pm nawaz sharif survives corruption ruling	Fake	0.962	Fake	(O) True_positive
+453/500	6g4otl	i.redd.it	still life what remains	Real	0.953	Real	(O) True_negative
+454/500	b6rrpc	imgur.com	the coals in this bakerys brick oven have remained continuously lit for years	Fake	0.955	Fake	(O) True_positive
+455/500	yluje	i.imgur.com	bowie paul mccartney	Fake	0.902	Fake	(O) True_positive
+456/500	8w1i7g	cnn.com	the san antonio zoo wants to offer toys r us mascot geoffrey a new job as ambassador for g	Fake	0.961	Fake	(O) True_positive
+457/500	8oi24i	i.redd.it	the spider king arachnophobia	Real	0.968	Real	(O) True_negative
+458/500	d944m4	i.redd.it	a fire hydrant broke near my school	Fake	0.957	Fake	(O) True_positive
+459/500	7plvfb	i.imgur.com	snout	Real	0.879	Real	(O) True_negative
+460/500	6xlbri	i.redd.it	vietnamese soldier prepares to ambush american troops circa	Real	0.952	Real	(O) True_negative
+461/500	4ecrvg	imgur.com	for the sake of life on earth soviet poster two remakes date unknown	Real	0.97	Real	(O) True_negative
+462/500	bowia1	i.redd.it	hitler visiting berchtesgaden	Real	0.932	Real	(O) True_negative
+463/500	1jzako	i.imgur.com	man transporting a crocodile on a motorcycle	Fake	0.953	Fake	(O) True_positive
+464/500	2jb8b4	arabianbusiness.co	top performing saudi teachers to be given luxury cars	Fake	0.963	Fake	(O) True_positive
+465/500	cpyrj7	i.redd.it	the floor at my work	Fake	0.902	Real	(X) False_positive
+466/500	cwptmw	i.redd.it	friday fighting sam fender	Real	0.971	Real	(O) True_negative
+467/500	18jp7c	imgur.com	strangers giving other strangers free flowers in london	Fake	0.966	Fake	(O) True_positive
+468/500	9fgjha	i.imgur.com	yawning cat	Fake	0.96	Fake	(O) True_positive
+469/500	d71n5e	i.redd.it	found this at five guys	Fake	0.959	Fake	(O) True_positive
+470/500	1y8trf	motherjones.com	obamas tea party cousin whos running for senate compared president to hitler	Fake	0.922	Fake	(O) True_positive
+471/500	9efyjp	i.redd.it	what you looking at chump	Real	0.914	Real	(O) True_negative
+472/500	3h7cz4	i.imgur.com	hanging out in the middle of the room	Real	0.962	Real	(O) True_negative
+473/500	2gzvb4	i.imgur.com	white house secret service agent pointing at something whilst holding an mp	Fake	0.86	Fake	(O) True_positive
+474/500	72jwao	i.redd.it	the horror	Real	0.966	Real	(O) True_negative
+475/500	dg1xvu	i.redd.it	this cannibal marshmallow	Fake	0.874	Fake	(O) True_positive
+476/500	dbc960	i.redd.it	a group of puffins	Fake	0.945	Fake	(O) True_positive
+477/500	2b8x5i	theonion.com	report majority of ufo abductions committed by alien that person knows	Real	0.91	Real	(O) True_negative
+478/500	3kbt68	imgur.com	photo i took on my phone screen and had to do something creative for them	Real	0.662	Real	(O) True_negative
+479/500	9bdz4d	i.imgur.com	our rental car had over fuel	Fake	0.968	Fake	(O) True_positive
+480/500	350wry	instagram.com	awesome realistic graffiti	Real	0.711	Real	(O) True_negative
+481/500	7ogw2o	gfycat.com	a cat stretching in a retreat in the seeds for the exact same battery	Real	0.823	Real	(O) True_negative
+482/500	5li3sk	healthsciencemag.o	teenagers use of drugs alcohol and tobacco declined significantly in at rates that are at 	Fake	0.847	Fake	(O) True_positive
+483/500	6ivby5	apnews.com	manson follower longestserving female inmate seeks parole	Fake	0.962	Fake	(O) True_positive
+484/500	1q70rx	whoateallthepies.t	one of arsene wengers many shining moments	Fake	0.906	Fake	(O) True_positive
+485/500	dfn1xz	i.redd.it	italian bars using spaghetti in drinks to reduce plasticwaste	Fake	0.842	Real	(X) False_positive
+486/500	7ygw1d	i.redd.it	my microphone in shock	Real	0.944	Real	(O) True_negative
+487/500	761svl	i.redd.it	some of harvey weinsteins accusers get ready to get their revenge on him because nobody el	Real	0.953	Real	(O) True_negative
+488/500	2xb500	craveonline.com	astronomer hints the simpsons could be set in australia	Real	0.774	Fake	(X) False_negative
+489/500	oiad1	wsws.org	the iron lady a film a view from the right	Fake	0.706	Real	(X) False_positive
+490/500	606pt5	knightleynews.com	after boycotting overtly gay beauty and the beast here are other movies you should protest	Real	0.935	Real	(O) True_negative
+491/500	1i1b97	i.imgur.com	my hair	Real	0.926	Real	(O) True_negative
+492/500	81iyc7	i.redd.it	my dad center in vietnam in didnt know this photo existed until i came across it randomly 	Real	0.966	Real	(O) True_negative
+493/500	biiqin	i.imgur.com	bonfire flames figure	Real	0.569	Fake	(E) Directed_to_expert
+494/500	8kotg7	imgur.com	oh my word	Real	0.964	Real	(O) True_negative
+495/500	b4p7l7	i.redd.it	this baby carrot that my friend found	Fake	0.971	Fake	(O) True_positive
+496/500	916vdu	i.redd.it	enoch cain killed abel	Real	0.951	Real	(O) True_negative
+497/500	36pv1w	economist.com	not running but fleeing with rare exceptions americas young are turning their backs on pol	Real	0.537	Fake	(E) Directed_to_expert
+498/500	axjhem	bbc.com	air india demands crew hail motherland	Fake	0.93	Fake	(O) True_positive
+499/500	7ekb12	local.theonion.com	report that whole side of family just like that	Real	0.939	Real	(O) True_negative
+500/500	6tcrr4	i.imgur.com	knight in shining armor	Fake	0.936	Fake	(O) True_positive

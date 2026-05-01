@@ -3,17 +3,22 @@ import torch.nn as nn
 
 class FakeNewsClassifier(nn.Module):
 
-    def __init__(self, input_dim=512, num_classes=2, dropout=0.3):
+    def __init__(self, input_dim=1537, num_classes=2, dropout=0.5):
         super().__init__()
 
-        self.dropout = nn.Dropout(dropout)
+        self.net = nn.Sequential(
+            nn.Linear(input_dim, 512),
+            nn.LayerNorm(512),
+            nn.GELU(),
+            nn.Dropout(dropout),
 
-        self.linear = nn.Linear(input_dim, num_classes)
+            nn.Linear(512, 128),
+            nn.LayerNorm(128),
+            nn.GELU(),
+            nn.Dropout(dropout),
+
+            nn.Linear(128, num_classes)
+        )
 
     def forward(self, features):
-
-        x = self.dropout(features)
-
-        logits = self.linear(x)
-
-        return logits
+        return self.net(features)

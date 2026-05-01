@@ -1,0 +1,597 @@
+3. Proposed Technique(s) and Algorithm(s)
+The proposed system is designed to detect fake news by understanding the meaning of textual content using a Transformer-based model. The system processes input text and transforms it into a numerical representation that captures its semantic meaning, which is then used for classification.
+The core of the system is the CLIP text encoder, which is based on the Transformer architecture. A Transformer is a deep learning model specifically designed to process sequences such as sentences. The process begins with tokenization, where the input text is broken into smaller units called tokens. Each token is then converted into a numerical vector through an embedding layer. These vectors represent the meaning of words in a high-dimensional space. Since Transformers do not inherently understand the order of words, positional encoding is added to provide information about the position of each token in the sequence.
+The embedded tokens then pass through multiple layers of self-attention. In self-attention, each word in the sentence evaluates its relationship with every other word. This allows the model to understand context. For example, the meaning of a word like “bank” can change depending on whether it appears in the context of finance or a river. Attention mechanisms assign different levels of importance to different words, enabling the model to focus on relevant parts of the sentence. Masking techniques are applied during this process to control the flow of information and ensure proper sequence handling.
+After the attention layers, the data passes through feedforward neural networks, which further refine the representation. The final output of the Transformer is a fixed-length vector, typically of size 512 in this case, which represents the overall meaning of the input text. This vector is often referred to as a feature vector or embedding. It does not directly represent a class but rather encodes the semantic information of the sentence in numerical form.
+This feature vector is then passed to a classification layer, which is a simple neural network consisting of linear transformations. The classifier converts the 512-dimensional vector into two output values, known as logits, corresponding to the two classes: fake and real. These logits are then converted into probabilities using the softmax function:
+P(y_i)=\frac{e^{z_i}}{\sum_{j} e^{z_j}}\bigm
+The predicted probabilities are compared with the actual labels using the cross-entropy loss function:
+Loss=-\sum_{i} y_i\log\funcapply(p_i)\bigm
+This function measures how far the predicted probabilities are from the true labels. A lower loss indicates better predictions.
+To improve the model, the training process uses backpropagation. Backpropagation computes gradients, which indicate how much each parameter in the model contributed to the error. A gradient can be understood as a direction that tells the model how to adjust its weights to reduce the loss. The weights are updated using the following rule:
+w=w-\eta\cdot\frac{\partial L o s s}{\partial w}\bigm
+where w\ represents the weights and \eta is the learning rate, which controls how large the update step is. Through repeated updates, the model gradually learns to make more accurate predictions. This process is known as fine-tuning when applied to a pre-trained model like CLIP, as the model adapts its existing knowledge to the specific task of fake news detection.
+Additionally, the system incorporates a confidence-based decision mechanism. Each prediction is associated with a confidence score. If the confidence is below a certain threshold, the prediction is flagged for expert review. This ensures that uncertain cases are handled more carefully, making the system more reliable in practical applications.
+
+ 
+4. Data Set(s) Used
+The dataset used in this study is the Fakeddit dataset, introduced in the paper “Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection.”  This dataset was developed by Kai Nakamura, Sharon Levy, and William Yang Wang in 2020 and is specifically designed for studying fake news in a multimodal setting.
+The dataset used in this study is divided into three separate parts to support different stages of model development and evaluation. The multimodal_train.tsv file contains approximately 564,212 rows and is used for training the model. During this phase, both the transformer-based text encoder and the classifier are fine-tuned by learning patterns from the data. The multimodal_validate.tsv file consists of around 59,365 rows and is used during training to evaluate how well the model is performing on unseen data, helping to monitor accuracy and prevent overfitting. Finally, the multimodal_test_public.tsv file contains about 59,339 rows and is reserved for final testing. This dataset is used only after training is complete to assess the overall performance of the model and ensure that it generalizes well to new, unseen examples.
+Fakeddit contains data collected from Reddit and includes both textual and visual information. Each data entry consists of author, clean_title, created_utc, domain, hasImage flag, id, image_url, linked_submission_id, num_comments, score, subreddit, title, upvote_ratio, 2_way_label, 3_way_label, 6_way_label. Bold ones are used in this project. There are two titles, the clean title is already preprocessed and normalises the effect of case, punctuations which create unnecessary noise for classification. The dataset is particularly suitable for this project because it supports multimodal learning, which aligns with the long-term goal of combining text and image analysis. Label is chosen 2 valued only to reduce irrelevant complexity and more focus on classification whether fake or not.
+Compared to other datasets such as LIAR, PHEME, FakeNewsNet, and PolitiFact, Fakeddit offers several advantages. Many existing datasets either lack image data or are limited in size and accessibility. Specific platforms like X(Twitter), earlier provided free api for downloading the dataset including complete information about each tweet on twitter. Now, have introduced api restrictions and made that api paid which doesn’t make sense to be purchased for learning purposes. Chinese Social media platform Weibo is also widely used in Fake News Detection, however, it can be accessed only by anyone native to china.
+In the current 1st phase of the project, only the textual component of the dataset is used. This decision simplifies the implementation and allows for a focused study on language understanding. By first building a robust text-based model, the system establishes a strong foundation that can later be extended to include image data. In future work, the image component of Fakeddit will be utilized alongside the CLIP vision encoder, enabling the system to perform multimodal semantic matching between text and images.
+5. Experiment(s) and Result(s)
+Essentially, for fake news classification, we need text, image and label of news fake or not and unique identification number. Then, we can process the news headlines in the way we want. The pathway will create different files and use different classes and functions to keep the code moduler, easy to debug and understand.
+Since, we are first implementing the text-based classification, the only relevant info is id, clean_title from the dataset.
+Step 1. Dataset Loading
+import pandas as pd
+import os
+
+class FakedditDatasetLoader:
+    def __init__(self, dataset_dir):
+
+        self.dataset_dir = dataset_dir      #dataset_dir: path to Fakeddit folder
+
+        self.train_file = os.path.join(dataset_dir, "multimodal_train.tsv")
+        self.val_file = os.path.join(dataset_dir, "multimodal_validate.tsv")
+        self.test_file = os.path.join(dataset_dir, "multimodal_test_public.tsv")
+
+    def load_split(self, filepath):
+
+        df = pd.read_csv(
+            filepath,
+            sep="\t",
+            usecols=[
+                "id",
+                "clean_title",
+                "2_way_label",
+                "domain",
+                "hasImage",
+                "image_url"
+            ]
+        )
+
+        df = df.rename(columns={
+            "clean_title": "text",
+            "2_way_label": "label"
+        })
+
+        df = df.dropna(subset=["text"])
+
+        return df
+
+    def load_datasets(self):
+
+        """Load train, validation and test datasets"""
+
+        train_df = self.load_split(self.train_file)
+        val_df = self.load_split(self.val_file)
+        test_df = self.load_split(self.test_file)
+
+        return train_df, val_df, test_df
+Pandas library is used for loading. Selected the columns to be used afterwords for processing. Renamed the columns for better recognition. Lastly filter out the missing values to return the dataset loaded. This whole procedure is then wrapped around to directly load all three dataset to reduce machine cycles.
+Step 2. Preprocessing
+import torch
+from torch.utils.data import Dataset
+
+class FakedditTextDataset(Dataset):
+
+    def __init__(self, dataframe, tokenizer):
+
+        self.texts = dataframe["text"].tolist()
+        self.labels = dataframe["label"].tolist()
+
+        self.tokenizer = tokenizer
+
+    def __len__(self):
+        return len(self.texts)
+
+    def __getitem__(self, idx):
+
+        text = str(self.texts[idx])
+        label = int(self.labels[idx])
+
+        tokens = self.tokenizer([text])[0]
+
+        return {
+            "text_tokens": tokens,
+            "label": torch.tensor(label, dtype=torch.long)
+        }
+Now, onwards for tokenizing, pytorch library is introduced, and a function is created which take the tokenizer directly tokenize the sentences. It has constructor that takes all the texts and labels in separate lists, also keep tokenizer with it. Now, there are 2 methods, one for length and another for returning token and tensor type label from the database.
+Tensor is basically an object having several numerical machine learning operations inside it already, such that it is compatible with batch function, compatible to go to gpu, and is the basic input to the neural networks. We inserted one integer; it converts to multidimensional matrix also if data for that is given.
+Step 3.	Encoding
+CLIP(Contrastive Language-Image Pre Training) Transformer model has two halves, test encoder(turning text into vectors) and vision encoder(turning images into vectors) trained on 400 millions plus image-text pair to understand a unseen image even without labelling more accurately.
+This model’s text encoder is used now to create text embeddings of the tokenized data.
+import torch
+import torch.nn as nn
+import open_clip
+
+class FakeNewsTextEncoder(nn.Module):
+
+    def __init__(
+        self,
+        model_name="ViT-B-32",
+        pretrained="openai",
+        freeze_text_encoder=False,
+    ):
+        super().__init__()
+
+        self.clip_model, _, _ = open_clip.create_model_and_transforms(
+            model_name,
+            pretrained=pretrained
+        )
+
+        self.freeze_text_encoder = freeze_text_encoder
+
+        if self.freeze_text_encoder:
+            for param in self.clip_model.parameters():
+                param.requires_grad = False
+
+    def forward(self, text_tokens):
+
+        if text_tokens.ndim == 1:
+            text_tokens = text_tokens.unsqueeze(0)
+
+        clip_device = next(self.clip_model.parameters()).device
+
+        text_tokens = text_tokens.to(device=clip_device, dtype=torch.long)
+
+        encode_text = getattr(self.clip_model, "encode_text")
+
+        if self.freeze_text_encoder:
+            with torch.no_grad():
+                text_features = encode_text(text_tokens)
+        else:
+            text_features = encode_text(text_tokens)
+
+        return text_features
+The starting happens with the creation of object of a class that inherits nn.Module which is neural network component of pytorch, then this module is given the name of model to connect with which is downloaded on the system.
+Open_clip library is used to either download or load the clip model, the _ present there ignores the image transformer which is also usually returned as class cares about linguistics only.
+There is one member of the class freeze_text_encoder, which when is true, the encoder can’t be fine tuned, or its weights get freezed. Otherwise, the encoder is training or changing the weights as it gets them.
+now param the parameter in param.requires_grad is turned off if the weights do not need to be changed.
+Gradient is basically the same as seen in mathematics that is delf=delf/delx1 + delf/delx2,……. Which helps the model to basically assert the direction in which loss decreases or increases. Then accordingly weights are adjusted to decrease the loss which is any given loss function.
+Now in the forward function, the text_tokens are passed to the same location the clip is resides i.e. clip_device, encode_text has a function that grabs the specific encode_text function of clip model.
+Now, usually when using torch library, there it is by default of the torch model to track mathematical gradients. However, it isn’t required when we don’t require gradient calc in freeze mode. That is done at last in forward method. This saves lot of memory and is thus optimization procedure.
+Step 4. Classifier
+Meanwhile, as we already mentioned, that the encoder only transformers provides us only the meaningful space of text embeddings called Features. It needs to be further either decoded or classified. Classification into labels is generally more easier since there is no prediction piece by piece.
+import torch.nn as nn
+
+class FakeNewsClassifier(nn.Module):
+
+    def __init__(self, input_dim=512, num_classes=2, dropout=0.3):
+        super().__init__()
+
+        self.dropout = nn.Dropout(dropout)
+
+        self.linear = nn.Linear(input_dim, num_classes)
+
+    def forward(self, features):
+
+        x = self.dropout(features)
+
+        logits = self.linear(x)
+
+        return logits
+Using the same nn module classifier is made of input dimension 512 which is output dimension of our clip encoder. With given dropout rate, which is the percentage of total nodes of normal neural model to be deactivated during training, this is to ensure that is there is no overfitting in the more.
+nn.Linear is the fully connected dense layer which apply linear transformations to reach the desired classification of the given vector where num_classes are the output number of classes.
+Using forward method again the features are inserted inside dropout function with which some randomly selected tokens are zero valued, basically corrupted in the percent given. This some weights will not get affected and thus gets deactivated. Then goes via linear function which is weighted sum: y=xW^T+b 
+Now since the no. of classes are 2 only the logits are any 2 numbers between -ve infinity or +ve infinity like [-1.5, +3.0] where let say first number represent the chances of real and other of fake, the one more +ve is more likely to happen, however these are just numbers not probabilities which further move to trainer.
+Step 5 (a).	Trainer
+import torch
+from torch.utils.data import DataLoader
+from tqdm import tqdm
+
+class Trainer:
+
+    def __init__(
+        self,
+        encoder,
+        classifier,
+        train_dataset,
+        val_dataset,
+        batch_size=8,
+        lr=1e-5,
+        device="cuda" if torch.cuda.is_available() else "cpu"
+    ):
+
+        self.device = device
+
+        # move models to GPU/CPU
+        self.encoder = encoder.to(device)
+        self.classifier = classifier.to(device)
+
+        self.train_loader = DataLoader(
+            train_dataset,
+            batch_size=batch_size,
+            shuffle=True,
+            num_workers=4, # number of CPU processes loading data
+            pin_memory=True # faster CPU → GPU memory transfer
+        )
+
+        self.val_loader = DataLoader(
+            val_dataset,
+            batch_size=batch_size,
+            shuffle=False,
+            num_workers=4, # number of CPU processes loading data
+            pin_memory=True # faster CPU → GPU memory transfer
+        )
+
+        self.criterion = torch.nn.CrossEntropyLoss()
+
+        # optimizer must train BOTH models
+        self.optimizer = torch.optim.AdamW(
+            list(self.encoder.parameters()) +
+            list(self.classifier.parameters()),
+            lr=lr
+        )
+        self.scaler = torch.GradScaler("cuda", enabled=(self.device == "cuda"))
+
+    def train_epoch(self):
+
+        self.encoder.train()
+        self.classifier.train()
+
+        total_loss = 0
+
+        for batch in tqdm(self.train_loader):
+
+            tokens = batch["text_tokens"].to(self.device)
+            labels = batch["label"].to(self.device)
+
+            self.optimizer.zero_grad()
+
+            with torch.autocast(device_type="cuda", enabled=(self.device == "cuda")):
+
+                features = self.encoder(tokens)
+
+                outputs = self.classifier(features)
+
+                loss = self.criterion(outputs, labels)
+
+            self.scaler.scale(loss).backward()
+
+            self.scaler.step(self.optimizer)
+
+            self.scaler.update()
+
+            total_loss += loss.item()
+
+        return total_loss / len(self.train_loader)
+
+    def validate(self):
+
+        self.encoder.eval()
+        self.classifier.eval()
+
+        correct = 0
+        total = 0
+
+        with torch.no_grad():
+
+            for batch in self.val_loader:
+
+                tokens = batch["text_tokens"].to(self.device)
+                labels = batch["label"].to(self.device)
+
+                features = self.encoder(tokens)
+
+                outputs = self.classifier(features)
+
+                predictions = torch.argmax(outputs, dim=1)
+
+                correct += (predictions == labels).sum().item()
+                total += labels.size(0)
+
+        return correct / total
+
+    def train(self, epochs=3):
+
+        if not torch.cuda.is_available():
+            print("Cuda is not available, hence training cancelled.")
+            return
+
+        for epoch in range(epochs):
+
+            train_loss = self.train_epoch()
+
+            val_acc = self.validate()
+
+            print(
+                f"Epoch {epoch+1} | Loss: {train_loss:.4f} | Validation Accuracy: {val_acc:.4f}"
+            )
+
+        # save BOTH models
+        torch.save(self.encoder.state_dict(), "encoder.pt")
+        torch.save(self.classifier.state_dict(), "classifier.pt")
+
+        print("Models saved successfully.")
+In trainer class, all the tools discussed till now are comined to complete the training loop
+Imports dataloader of pytorch, which is the tool that batches the dataset basically helps in batching, multiprocessing, shuffling, and direct memory access to optimally use gpu and properly train the model.
+Imports tqdm for visual progress bar during training
+First, class starts with constructor which is takens the encoder, classifier, the batch rate, learning rate, datasets and device which is cuda generally if nvidia gpu is there. Now, train_loader, val_loader, etc are created with dataloader as already discussed.
+There is important criterion place where we take inbuilt loss fuction as already discussed. The algorithm that optimizes or reduces the loss is call torch.optim.AdamW(..) stored as optimser and takes list of parameters of both classifier and encoder to adjust both, the algorithm is known as Adam with Weight Decay, also known as Backpropagation. Finally there is scaler that scales up the gradients to prevent them from turning 0 in lower precision math, which is used to run faster on gpus.
+In the training loop, the self.encoder.train()/self.classifier.train() turns training modes on, basically turns off freezing of weights. A cumulative loss variable is made. Now for each batch the progress bar is there under the loop. Tokens and labels are taken out, the optimizer is cleared of previous batch gradients, torch autocast again is method to convert 32 bit math to 16 bit to speed up gpu, . Then features are created after passing tokens from the encoder, outputs are alo created after passing classfier. Now, loss is calculated between outpus and labels(actual) one, These function gradients are made with gradients pointing towards lower error. Lastly, scaler with optimizer use those gradients to update the weights and finally add the loss to the aggragate loss. The function returns total loss after tat divided by the length of total loaded dataset.
+The other steps include evaluation.
+5.1. Evaluation(s) and Result(s)
+Step 5(b). Validation
+The validation loop is run turning off training behavior( off the dropouts), no grads are calculated, the predictions are the looked upon which takes the more positive one from the choice of fake or real labe. That prediction if is equal to label is then inserted in the correct var. Later, correct/ total set is returned.
+from data.dataset_loader import FakedditDatasetLoader
+from data.preprocessing import FakedditTextDataset
+from models.text_encoder import FakeNewsTextEncoder
+from models.classifier import FakeNewsClassifier
+from training.trainer import Trainer
+
+import open_clip
+
+dataset_path = "Fakeddit"
+
+loader = FakedditDatasetLoader(dataset_path)
+
+train_df, val_df, test_df = loader.load_datasets()
+
+# The below 2 lines are for sample testing as training model may take hours
+train_df = train_df.sample(20000)
+val_df = val_df.sample(5000)
+
+tokenizer = open_clip.get_tokenizer("ViT-B-32")
+
+train_dataset = FakedditTextDataset(train_df, tokenizer)
+
+val_dataset = FakedditTextDataset(val_df, tokenizer)
+
+encoder = FakeNewsTextEncoder()
+
+classifier = FakeNewsClassifier()
+
+trainer = Trainer(
+    encoder,
+    classifier,
+    train_dataset,
+    val_dataset
+)
+
+trainer.train(epochs=3)
+
+Train method is the main orchestrator, who runs all this functions and finally saved the trained models.
+Step 6. Making pred
+import torch
+import open_clip
+import os
+import pandas as pd
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+from data.dataset_loader import FakedditDatasetLoader
+from data.preprocessing import FakedditTextDataset
+
+from models.text_encoder import FakeNewsTextEncoder
+from models.classifier import FakeNewsClassifier
+from sklearn.metrics import confusion_matrix
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+# -------------------------------
+# SAFETY CHECK
+# -------------------------------
+if not os.path.exists("encoder.pt") or not os.path.exists("classifier.pt"):
+    print("\nERROR: Trained model not found.")
+    print("Please run training first:")
+    print("   python train_model.py\n")
+    exit()
+
+# -------------------------------
+# LOAD DATASET
+# -------------------------------
+dataset_path = "Fakeddit"
+
+loader = FakedditDatasetLoader(dataset_path)
+
+_, _, test_df = loader.load_datasets()
+
+# restrict to 500 rows
+test_df = test_df.head(500)
+
+tokenizer = open_clip.get_tokenizer("ViT-B-32")
+
+test_dataset = FakedditTextDataset(test_df, tokenizer)
+
+# -------------------------------
+# LOAD MODELS
+# -------------------------------
+encoder = FakeNewsTextEncoder().to(device)
+classifier = FakeNewsClassifier().to(device)
+
+encoder.load_state_dict(torch.load("encoder.pt", map_location=device))
+classifier.load_state_dict(torch.load("classifier.pt", map_location=device))
+
+encoder.eval()
+classifier.eval()
+
+total_rows = len(test_dataset)
+
+print(
+    f"{'COUNT':8} {'ID':10} {'DOMAIN':18} {'TITLE':55} {'PREDICTED':10} {'CONF':6} {'TRUE':6} {'NOTE':18}"
+)
+
+print("-"*150)
+
+correct = 0
+incorrect = 0
+expert_cases = 0
+
+y_true = []
+y_pred = []
+
+results = []
+
+confidence_threshold = 0.65
+
+for i in range(total_rows):
+
+    sample = test_dataset[i]
+
+    tokens = sample["text_tokens"].unsqueeze(0).to(device)
+
+    label = sample["label"].item()
+
+    with torch.no_grad():
+
+        features = encoder(tokens)
+
+        logits = classifier(features)
+
+        probs = torch.softmax(logits, dim=1)
+
+        confidence, pred = torch.max(probs, dim=1)
+
+    pred = pred.item()
+    confidence = confidence.item()
+
+    pred_label = "Fake" if pred == 1 else "Real"
+    true_label = "Fake" if label == 1 else "Real"
+
+    title = str(test_df.iloc[i]["text"])[:90]
+    domain = str(test_df.iloc[i]["domain"])[:18]
+    post_id = str(test_df.iloc[i]["id"])
+
+    note = ""
+    if pred == 1 and label == 1:
+        note = "(O) True_positive"
+    elif pred == 0 and label == 0:
+        note = "(O) True_negative"
+    elif pred == 1 and label == 0:
+        note = "(X) False_positive"
+    elif pred == 0 and label == 1:
+        note = "(X) False_negative"
+    if confidence < confidence_threshold:
+        expert_cases += 1
+        note = "(E) Directed_to_expert"
+
+    print(
+        f"{str(i+1)+'/'+str(total_rows):8} "
+        f"{post_id:10} "
+        f"{domain:18} "
+        f"{title:90} "
+        f"{pred_label:10} "
+        f"{confidence:.2f} "
+        f"{true_label:6} "
+        f"{note:18}"
+    )
+
+    y_true.append(label)
+    y_pred.append(pred)
+
+    results.append({
+        "count": f"{i+1}/{total_rows}",
+        "id": post_id,
+        "domain": domain,
+        "title": title,
+        "predicted": pred_label,
+        "confidence": round(confidence,3),
+        "true_label": true_label,
+        "note": note
+    })
+
+# -------------------------------
+# METRICS
+# -------------------------------
+
+accuracy = accuracy_score(y_true, y_pred)
+precision = precision_score(y_true, y_pred)
+recall = recall_score(y_true, y_pred)
+f1 = f1_score(y_true, y_pred)
+
+tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel() # compute confusion matrix
+
+print("\nConfusion Matrix Components")
+print("----------------------------------")
+print("True Positive  (A.Fake→P.Fake) :", tp)
+print("True Negative  (A.Real→P.Real) :", tn)
+print("False Positive (A.Real→P.Fake) :", fp)
+print("False Negative (A.Fake→P.Real) :", fn)
+
+print("\nEvaluation Summary")
+print("------------------------------")
+correct = tn+tp
+incorrect = total_rows - correct
+print("Correct Predictions   :", correct)
+print("Incorrect Predictions :", incorrect)
+print("Sent To Expert        :", expert_cases)
+
+
+print("\nModel Metrics")
+print("----------------------")
+print("Accuracy :", f"{float(accuracy):.4f}")
+print("Precision:", f"{float(precision):.4f}")
+print("Recall   :", f"{float(recall):.4f}")
+print("F1 Score :", f"{float(f1):.4f}")
+expert_ratio = expert_cases / total_rows
+print("Expert Review Ratio   :", f"{expert_ratio:.4f}")
+
+
+# -------------------------------
+# SAVE RESULTS
+# -------------------------------
+
+results_df = pd.DataFrame(results)
+
+results_df.to_csv(
+    "evaluation_results.tsv",
+    sep="\t",
+    index=False
+)
+
+print("\nResults saved to evaluation_results.tsv")
+This time dataset for testing are loaded, models are loaded, the new modesl are loaded, evaluation mode is set.
+Test_dataset this time without use of pytorch dataloader is taken and with total_rows calculated, now each one of the sample is passed one by one, its token, features, logitss are taken out, using softmax, these logits are converted to probabilities and then are compared to labels, and max of the probs is taken as confidence level and then finally  print the complete dataset with all traditional machine learning metrics using scikit library.
+count   id  domain  title   predicted   confidence  true_label  note
+1/500   cozywbv nan stargazer   Real    0.97    Real    (O) True_negative
+…..
+499/500 f29yrr4 nan httpsiimgurcomxcvuzmtjpg    Real    1.0 Real    (O) True_negative
+500/500 9d18ci  i.redd.it   root growing from a rock    Fake    0.918   Fake    (O) True_positive
+
+
+
+(venv) D:\Documents\Code\GitHub\Fake News Detection Fakeddit Dataset>python -u "d:\Documents\Code\GitHub\Fake News Detection Fakeddit Dataset\train_model.py"
+D:\Documents\Code\GitHub\Fake News Detection Fakeddit Dataset\venv\Lib\site-packages\open_clip\factory.py:450: UserWarning: QuickGELU mismatch between final model config (quick_gelu=False) and pretrained tag 'openai' (quick_gelu=True).
+  warnings.warn(
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [05:54<00:00,  7.05it/s]
+Epoch 1 | Loss: 0.3609 | Validation Accuracy: 0.8722
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [05:42<00:00,  7.31it/s] 
+Epoch 2 | Loss: 0.1791 | Validation Accuracy: 0.8520
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [05:35<00:00,  7.46it/s] 
+Epoch 3 | Loss: 0.0645 | Validation Accuracy: 0.8620
+Models saved successfully.
+Directory
+Fake News Detection Fakeddit Dataset
+├── .gitignore
+├── classifier.pt
+├── encoder.pt
+├── evaluate.py
+├── evaluation_results.tsv
+├── pipeline_test.py
+├── requirements.txt
+├── Training Output.txt
+├── train_model.py
+├── data
+│   ├── dataset_loader.py
+│   ├── preprocessing.py
+│   └── __pycache__
+├── Fakeddit
+│   ├── multimodal_test_public.tsv
+│   ├── multimodal_train.tsv
+│   └── multimodal_validate.tsv
+├── inference
+│   └── predictor.py
+├── models
+│   ├── classifier.py
+│   ├── text_encoder.py
+│   └── __pycache__
+├── training
+│   ├── trainer.py
+│   └── __pycache__
+└── venv
+    ├── .gitignore
+    ├── pyvenv.cfg
+    ├── Include
+    └── Lib
+5.2. Error Analysis

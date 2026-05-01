@@ -32,4 +32,16 @@ Fakeddit/
 *.ckpt
 
 # Logs
-*.log
+*log*
+*dump*
+
+#temp
+*.rar
+*.csv
+*.png
+*.jpeg
+*.jpg
+*.json
+_temp*
+*.pdf
+*history*
