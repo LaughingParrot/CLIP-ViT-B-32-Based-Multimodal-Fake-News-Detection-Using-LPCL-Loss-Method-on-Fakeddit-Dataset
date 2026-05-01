@@ -94,7 +94,7 @@ where `s` is the scalar cosine similarity score — an explicit, interpretable c
 
 ## Dataset
 
-This project uses the **[Fakeddit](https://github.com/entitize/fakeddit)** dataset (Nakamura et al., 2020) — a large-scale multimodal benchmark collected from Reddit.
+This project uses the **[Fakeddit(Multimodal Only)](https://www.kaggle.com/code/vanshikavmittal/fakeddit-multimodal-fake-news-classification)** i.e. modified version of (https://github.com/entitize/fakeddit) dataset (Nakamura et al., 2020) — a large-scale multimodal benchmark collected from Reddit.
 
 | Split | Total Samples | Used |
 |-------|--------------|------|
@@ -107,6 +107,7 @@ This project uses the **[Fakeddit](https://github.com/entitize/fakeddit)** datas
 Images are downloaded separately using the provided URLs and stored as `{id}.jpg` files. The dataset class filters to only rows where the corresponding image is available on disk.
 
 > **Why Fakeddit?** Unlike LIAR (text-only), PHEME (Twitter API-dependent), or FakeNewsNet (API-restricted), Fakeddit is large-scale, publicly accessible, multimodal, and supports binary classification out of the box.
+Recent ones are not as big as fakeddit dataset
 
 ---
 
