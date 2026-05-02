@@ -150,6 +150,7 @@ scikit-learn
 torch
 tqdm
 transformers
+tkinterdnd2
 ```
 
 ---
