@@ -8,7 +8,7 @@ Early Fake News Detection on Social Media
 ![CLIP](https://img.shields.io/badge/CLIP-ViT--B%2F32-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
-**A multimodal deep learning system for fake news detection using CLIP encoders and Label-Preserving Contrastive Learning (LPCL).**
+**A multimodal deep learning system for fake news detection using CLIP encoders and InfoNCE Contrastive Loss.**
 
 *Rushil Dharwal (BITS Pilani)*
 
@@ -39,7 +39,7 @@ This project implements a **multimodal fake news detection system** that jointly
 | Phase | Description | Status |
 |-------|-------------|--------|
 | **Phase 1** | Text-only baseline using CLIP text encoder + linear classifier | ✅ Complete |
-| **Phase 2** | Full multimodal architecture with NLI-style cross-modal fusion + LPCL | ✅ Complete |
+| **Phase 2** | Full multimodal architecture with NLI-style cross-modal fusion + InfoNCE loss | ✅ Complete |
 | **Phase 3** | Interactive GUI application (single & batch classification) | ✅ Complete |
 
 ### Motivation
@@ -84,7 +84,7 @@ where `s` is the scalar cosine similarity score — an explicit, interpretable c
 
 - **Dual CLIP Encoders** — Shared ViT-B/32 backbone pre-trained on 400M image-text pairs
 - **NLI-Style Fusion** — Cross-modal interaction and difference signals concatenated into 2048-D joint representation
-- **LPCL Contrastive Loss** — In-batch InfoNCE alignment loss replacing unsupervised GMM refinement
+- **InfoNCE Contrastive Loss** — In-batch cross-modal alignment loss replacing unsupervised GMM refinement
 - **Multi-Layer GELU Classifier** — `1537 → 512 → 128 → 2` with LayerNorm and Dropout
 - **Confidence Thresholding** — Predictions below 0.65 confidence are routed to expert review
 - **Interactive GUI** — CustomTkinter app with single-item and batch analysis modes
@@ -123,7 +123,7 @@ Recent ones are not as big as fakeddit dataset
 
 ```bash
 # Clone the repository
-git clone https://github.com/LaughingParrot/CLIP-ViT-B-32-Based-Multimodal-Fake-News-Detection-Using-LPCL-Loss-Method-on-Fakeddit-Dataset fake-news-detection
+git clone https://github.com/LaughingParrot/CLIP-Multimodal-Fake-News-Detection-with-InfoNCE-on-Fakeddit fake-news-detection
 cd fake-news-detection
 
 # Create and activate virtual environment
@@ -253,12 +253,12 @@ GELU activation is preferred over ReLU for smoother gradients in transformer-bas
 GELU(x) = x · Φ(x) ≈ 0.5x · (1 + tanh(√(2/π)(x + 0.044715x³)))
 ```
 
-### LPCL Loss Function (`training/trainer.py`)
+### InfoNCE Loss Function (`training/trainer.py`)
 
-Label-Preserving Contrastive Learning replaces unsupervised GMM refinement with a supervised in-batch InfoNCE loss:
+In-batch InfoNCE loss is used for cross-modal alignment:
 
 ```python
-def in_batch_lpcl_loss(text_feat, image_feat, temperature):
+def in_batch_infonce_loss(text_feat, image_feat, temperature):
     logits = (text_feat @ image_feat.T) * temperature
     labels = torch.arange(logits.size(0), device=logits.device)
     return (F.cross_entropy(logits, labels) +
@@ -266,7 +266,7 @@ def in_batch_lpcl_loss(text_feat, image_feat, temperature):
 
 # Combined loss in training loop
 cls_loss   = criterion(logits, labels)        # CrossEntropyLoss(label_smoothing=0.1)
-align_loss = in_batch_lpcl_loss(text_feat, image_feat, temperature)
+align_loss = in_batch_infonce_loss(text_feat, image_feat, temperature)
 loss       = (cls_loss + 0.1 * align_loss) / accumulation_steps
 ```
 
@@ -296,7 +296,7 @@ temperature = torch.clamp(self.logit_scale.exp(), min=1e-3, max=100)
 | Precision | bfloat16 / float16 (AMP) |
 | Early stopping patience | 3 epochs |
 | Label smoothing | ε = 0.1 |
-| LPCL weight | 0.1 |
+| InfoNCE loss weight | 0.1 |
 | Dropout | 0.4 (fusion), 0.5 (classifier) |
 
 ### Training Progression
@@ -329,7 +329,7 @@ The best checkpoint is saved as `multimodal_model.pt`.
 |---------|--------------------|--------------------|
 | Modalities | Text only | Text + Image |
 | Classifier | `Linear 512→2 (ReLU)` | `MLP 1537→512→128→2 (GELU)` |
-| Loss | CrossEntropy | CrossEntropy + LPCL |
+| Loss | CrossEntropy | CrossEntropy + InfoNCE |
 | Cross-modal similarity | — | Cosine similarity |
 | Val. Accuracy | ~87% | ~89% |
 

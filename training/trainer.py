@@ -22,7 +22,7 @@ if torch.cuda.is_available():
     torch.backends.cudnn.benchmark = True
 
 
-def in_batch_lpcl_loss(text_feat: Tensor, image_feat: Tensor, temperature: Tensor) -> Tensor:
+def in_batch_infonce_loss(text_feat: Tensor, image_feat: Tensor, temperature: Tensor) -> Tensor:
     logits = (text_feat @ image_feat.T) * temperature
     labels = torch.arange(logits.size(0), device=logits.device)
     return (F.cross_entropy(logits, labels) + F.cross_entropy(logits.T, labels)) / 2
@@ -161,7 +161,7 @@ class Trainer:
             with autocast_ctx:
                 logits, text_feat, image_feat, temp = self.model(tokens, images)
                 cls_loss = self.criterion(logits, labels)
-                align_loss = in_batch_lpcl_loss(text_feat, image_feat, temp)
+                align_loss = in_batch_infonce_loss(text_feat, image_feat, temp)
                 loss = (cls_loss + 0.1 * align_loss) / self.accumulation_steps
 
             if self.use_grad_scaler and self.scaler is not None:
